@@ -1,0 +1,28 @@
+# This is GitHub Pages Configurations
+
+# The theme of your site
+# To apply this template theme, use remote_theme
+# remote_theme: nikahmadz/prime@v0.3
+
+# The title of your site
+title: Pages
+
+# A short description of your site's purpose
+# description:
+
+# Fill in your Google Analytics ID to track your website using Google Analytics
+# google_analytics:
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - docs/
+
+# Jekyll plugins
+# plugins:
+#  - jekyll-paginate
+#  - jekyll-sitemap

@@ -1,0 +1,35 @@
+/*! (c) Copyright Nik Ahmad : base-scroll-v1.0*/
+
+::-webkit-scrollbar {
+  background: 0;
+  cursor: default;
+  height: 14px;
+  width: 14px;
+}
+
+::-webkit-scrollbar-corner {
+  background: 0;
+}
+
+::-webkit-resizer {
+  background: 0;
+  border: 3px solid rgba(128, 128, 128, 0);
+  border-right-color: rgba(128, 128, 128, 0.5);
+  border-bottom-color: rgba(128, 128, 128, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: 0;
+  border: 5px solid rgba(128, 128, 128, 0);
+  border-radius: 7px;
+  box-shadow: 0 0 0 2px gray inset;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: 0 0 0 4px grey inset;
+  border-width: 4px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  border-width: 5px;
+}
