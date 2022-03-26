@@ -1,3 +1,6 @@
+---
+layout: prime
+---
 # Pages
 ✨ Quick Page Templates
 
