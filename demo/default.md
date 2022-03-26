@@ -1,6 +1,3 @@
----
-layout: default
----
 > **Template Demo**
 
 <p class="bg-secondary p-3 text-slategray text-small">This template helps you build websites on <b>Github</b>.
@@ -19,11 +16,11 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ***
 
-## Better control over your content
+## Write your content
 
 ![Small image](https://picsum.photos/id/299/400/300){: .centered.float-sm-right.m-sm-4 }
 
-Include image with floats and margins.
+**Include image with floats and margins**.
 
 <span class="text-gray">Following texts are meaningless fillers to fill up some space for the rest of this demo. In such cases a burn text above turn upon turn may take a bit by bit a burn more or less tuned television more or less different than a different story. Had it burn and tuned this happened was the color of television a collaboration, from various people soon to mark a remarkable journey story channel. This happened to people various bit by bit.</span>
 {: .indent.text-justify }
@@ -126,14 +123,6 @@ Add full scale images, align them centered or float them left or right.
     1. Item b
 1. Item two
 
-###### Tasks
-
-- [x] Completed task.
-    - task item level 2
-        - task item level 3
-    - task item level 2
-- [ ] Pending task.
-- [ ] \(Escape) tasks that begins with a parenthesis.
 
 ## Definitions
 
