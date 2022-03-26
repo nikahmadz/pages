@@ -1,3 +1,6 @@
+---
+layout: default
+---
 > **Template Demo**
 
 <p class="bg-secondary p-3 text-slategray text-small">This template helps you build websites on <b>Github</b>.
