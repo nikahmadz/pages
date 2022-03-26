@@ -19,4 +19,4 @@ Vivamus pellentesque sit amet justo quis congue. Morbi luctus lectus vel ultrici
 
 ***
 
-<a href="#" onclick="event.preventDefault();window.history.back()">Back</a>
+{% includes back.html %}

@@ -8,4 +8,4 @@ Proin et semper velit. Sed at luctus arcu. Maecenas pulvinar, velit eget imperdi
 
 ***
 
-<a href="#" onclick="event.preventDefault();window.history.back()">Back</a>
+{% includes back.html %}
