@@ -1,0 +1,2 @@
+# pages
+✨ Quick Page Templates
