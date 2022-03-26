@@ -3,4 +3,4 @@
 
 ***
 
-[default](./demo/default)
+demo/[default](./demo/default)
