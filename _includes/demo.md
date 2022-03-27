@@ -7,7 +7,7 @@ When you commit your code, **Github Pages** will build your website from the con
 
 **[Intro][intro]** &middot;
 **[How to use it][how]** &middot;
-**[View on Github][source]**
+**[View source][source]**
 {: .text-grey }
 
 [intro]:  https://nikahmadz.github.io/pages/ "Introduction to Pages"

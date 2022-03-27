@@ -31,7 +31,7 @@ summary {
 
 .markdown-body {
   h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0 }
-  h1 a { color:initial; &:hover{ text-decoration:none;color:$primary-color; } }
+  h1 a { color:inherit; &:hover{ text-decoration:none;color:$primary-color; } }
   img { box-shadow: 1px 1px 3px black; }
   dt { color:#6a737d }
   table {

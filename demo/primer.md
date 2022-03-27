@@ -1,5 +1,6 @@
 ---
 layout: primer
+show_title: false
 ---
 > **Primer Demo**
 

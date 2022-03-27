@@ -31,7 +31,7 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 [default](//nikahmadz.github.io/pages/demo/default)
 [prime](//nikahmadz.github.io/pages/demo/prime)
 [primer](//nikahmadz.github.io/pages/demo/primer)
-{: .p-3 }
+{: .p-3 id="demo" }
 
 
 ## How to use it?
@@ -44,7 +44,7 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ```yml
 # The theme of your site
-remote_theme: nikahmadz/pages@v0.1.5-beta
+remote_theme: nikahmadz/pages@v0.1.6
 ```
 
 #### Writing content
