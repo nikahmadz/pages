@@ -3,17 +3,19 @@ layout: primer
 ---
 > **Template Demo**
 
-<p class="bg-secondary p-3 text-slategray text-small">This template helps you build websites on <b>Github</b>.
+This template helps you build websites on **Github**.
 It has everything pre-configured to get you started right away.
 You can write your content in Markdown and HTML.
 Maintain the content of your website with any code editor you like.
-When you commit your code, <b>Github Pages</b> will build your website from the content of your files.</p>
+When you commit your code, **Github Pages** will build your website from the content of your files.
+{: .bg-secondary.p-3.text-slategray.text-small }
 
 **[Intro][intro]** &middot;
 **[How to use it][how]** &middot;
 **[View on Github][source]**
+{: .text-grey }
 
-[intro]:  https://nikahmadz.github.io/pages/ "Introduction to Prime"
+[intro]:  https://nikahmadz.github.io/pages/ "Introduction to Pages"
 [how]:    https://nikahmadz.github.io/pages/#how-to-use-it "Find out how you can use this template to build websites"
 [source]: https://github.com/nikahmadz/pages "View on Github"
 
