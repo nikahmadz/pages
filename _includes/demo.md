@@ -99,7 +99,7 @@ end
 Long, single-line `code blocks` should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
 
-## Include images big and small
+## Images big and small
 
 Add full scale images, align them centered or float them left or right.
 
@@ -120,15 +120,6 @@ Add full scale images, align them centered or float them left or right.
 
 ## List
 
-###### Unordered
-
-- level 1 item
-    - level 2 item
-        - level 3 item
-        - level 3 item
-    - level 2 item
-- level 1 item
-
 ###### Ordered
 
 1. Item one
@@ -138,6 +129,17 @@ Add full scale images, align them centered or float them left or right.
     1. Item b
 1. Item two
 
+
+###### Unordered
+
+- level 1 item
+    - level 2 item
+        - level 3 item
+        - level 3 item
+    - level 2 item
+- level 1 item
+
+
 ###### Tasks
 
 - [x] Completed task.
@@ -146,6 +148,7 @@ Add full scale images, align them centered or float them left or right.
     - task item level 2
 - [ ] Pending task.
 - [ ] \(Escape) tasks that begins with a parenthesis.
+
 
 ## Definitions
 
@@ -158,16 +161,12 @@ Add full scale images, align them centered or float them left or right.
 
 ## Table
 
-###### Markdown table
-
 | Description       | Status       | Notes      |
 | :---------------- | :----------: | ---------: |
 | good swedish fish | ok           | nice       |
 | good and plenty   | out of stock | nice       |
 | good `oreos`      | ok           | hmm        |
 | good `zoute` drop | ok           | yumm       |
-
-###### HTML table
 
 <table class="full">
 <tr><th colspan="3">Full table</th></tr>
