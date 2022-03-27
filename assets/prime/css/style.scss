@@ -11,8 +11,10 @@
 @import "base-scroll";
 @import "prime/utilities";
 
+$primary-color:#4660e1;
+
 body { background-color:initial;color:initial; }
-a { color:#4660e1; }
+a { color:$primary-color; }
 summary {
   cursor:pointer;
   margin-bottom:16px;
@@ -29,7 +31,7 @@ summary {
 
 .markdown-body {
   h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0 }
-  h1 a { color:initial; &:hover{ text-decoration:none;color:#4660e1; } }
+  h1 a { color:initial; &:hover{ text-decoration:none;color:$primary-color; } }
   img { box-shadow: 1px 1px 3px black; }
   dt { color:#6a737d }
   table {
@@ -43,7 +45,7 @@ summary {
   hr { background-color:grey;opacity:.3; }
   h1, h2, h3, h4, h5, h6 { color:slategray;border-bottom-color:grey;border-bottom-color:rgba(grey,30%); }
   blockquote { color:slategray;border-left-color:slategray;border-left-color:rgba(slategray,50%); }
-  code, tt { background-color:initial;background-color:rgba(grey,30%); }
+  code, tt { background-color:initial;background-color:rgba(190,190,190,50%); }
 }
 
 // utilities
@@ -55,11 +57,11 @@ summary {
 .bg-secondary {
   background-color:rgba(slategrey,25%);
   border:1px solid grey;
-  border-color:rgba(128,128,128,0.25);
+  border-color:rgba(grey,0.25);
 }
 
-.text-primary { color:#4660e1 !important }
-.bg-primary { background-color:#4660e1 }
+.text-primary { color:$primary-color !important }
+.bg-primary { background-color:$primary-color }
 
 .hero {
   font-size:2.5em;
