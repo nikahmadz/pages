@@ -29,7 +29,8 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ## <span class="text-secondary">Pages</span> template by [nikahmadz][1]
 
-**Demo** :
+<h5 class="float-left">Demo :</h5>
+
 [default](./demo/default)
 [primer](./demo/primer)
 [prime](./demo/prime)
