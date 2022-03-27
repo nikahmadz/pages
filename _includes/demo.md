@@ -75,7 +75,7 @@ This is a `box bg-secondary` container.
 
 <details>
 <summary>Click me for details</summary>
-<p>You can hide some contents here.</p>
+<p class="m-3">You can hide some contents here.</p>
 </details>
 
 ## Code blocks
