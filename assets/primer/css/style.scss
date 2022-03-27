@@ -12,6 +12,15 @@
 .p { margin-bottom:16px }
 .box { padding:.5em;border-radius:6px; }
 
+.text-secondary { color:initial !important }
+.bg-secondary {
+  background-color:#f6f8fa;
+  border:2px solid #e1e4e8;
+}
+
+.text-primary { color:#0366d6 !important }
+.bg-primary { background-color:#0366d6 }
+
 .hero {
   font-size:2.5em;
   font-weight:700;
