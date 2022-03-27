@@ -27,10 +27,12 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ## <a href="//nikahmadz.github.io/pages" class="text-secondary">Pages</a> template by [nikahmadz][1]
 
-<b id="demo">Demo : </b>
+**Demo** :
 [default](//nikahmadz.github.io/pages/demo/default)
 [prime](//nikahmadz.github.io/pages/demo/prime)
 [primer](//nikahmadz.github.io/pages/demo/primer)
+{: .p-3 }
+
 
 ## How to use it?
 
