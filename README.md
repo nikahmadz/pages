@@ -33,7 +33,6 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 [default](//nikahmadz.github.io/pages/demo/default)
 [prime](//nikahmadz.github.io/pages/demo/prime)
 [primer](//nikahmadz.github.io/pages/demo/primer)
-[merlot](//nikahmadz.github.io/pages/demo/merlot)
 
 ## How to use it?
 
