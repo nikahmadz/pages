@@ -29,11 +29,10 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ## <a href="//nikahmadz.github.io/pages" class="text-secondary">Pages</a> template by [nikahmadz][1]
 
-<b id="demo">Demo :</b>
-
+<b id="demo">Demo : </b>
 [default](//nikahmadz.github.io/pages/demo/default)
-[primer](//nikahmadz.github.io/pages/demo/primer)
 [prime](//nikahmadz.github.io/pages/demo/prime)
+[primer](//nikahmadz.github.io/pages/demo/primer)
 
 ## How to use it?
 
@@ -45,19 +44,18 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ```yml
 # The theme of your site
-remote_theme: nikahmadz/pages@v0.1.1-beta
+remote_theme: nikahmadz/pages@v0.1.2-beta
 ```
 
 #### Writing content
 
-On every content you create, start with the following template.
-If you don't specify the `layout` front-matter, default value is used.
+On every content you create, start with the following front-matter.
+If you don't specify the `layout` value, default value is used.
 
 ```
 ---
 layout: <layout-name>
 ---
-{{ content }}
 ```
 
 #### Activating Github Pages
