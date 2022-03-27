@@ -52,7 +52,7 @@ remote_theme: nikahmadz/pages@v0.1.6
 On every content you create, start with the following front-matter.
 If you don't specify the `layout` value, default value is used.
 
-```
+```yml
 ---
 layout: <layout-name>
 ---
