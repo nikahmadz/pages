@@ -1,5 +1,3 @@
-# Pages
-
 <p class="hero">Build <span class="text-red">beautiful website</span> in minutes<br />
 using <mark>Markdown and HTML</mark></p>
 
@@ -44,7 +42,7 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ```yml
 # The theme of your site
-remote_theme: nikahmadz/pages@v0.1.4-beta
+remote_theme: nikahmadz/pages@v0.1.5-beta
 ```
 
 #### Writing content
