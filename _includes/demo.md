@@ -209,7 +209,7 @@ or make a list of all the posts you have:
 {% else %}
 
 You can create links to
-[a page](./page-example "Page Example").
+[a page](./pages/example "Page Example").
 
 {% endif %}
 
@@ -235,12 +235,5 @@ You can also use word as reference [^note].
 
 ***
 
-<div class="text-center text-grey"> Ends </div>
-
-***
-
-[Home][1] &middot; [Github][2] &middot; [Discuss][3]
-
-[1]:https://nikahmadz.github.io "Go to nikahmadz.github.io"
-[2]:https://github.com/nikahmadz "Follow me on Github"
-[3]:https://github.com/nikahmadz/nikahmadz.github.io/discussions "Go to Discussion Room"
+Ends
+{: .text-center.text-grey }

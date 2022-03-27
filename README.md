@@ -3,6 +3,14 @@
 
 ***
 
-demo/[default](./demo/default)  
-demo/[primer](./demo/primer)  
-demo/[prime](./demo/prime)
+- {{ site }}
+- {{ site.title }}
+- {{ layout }}
+- {{ page.layout }}
+
+***
+
+**Demo** :
+[default](./demo/default)  
+[primer](./demo/primer)  
+[prime](./demo/prime)
