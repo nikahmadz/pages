@@ -13,8 +13,6 @@
 
 body { background-color:initial;color:initial; }
 a { color:#4660e1; }
-abbr { cursor:help; text-underline-offset:1px; }
-mark { padding:0 .2em; }
 summary {
   cursor:pointer;
   margin-bottom:16px;
@@ -23,12 +21,7 @@ summary {
   &:hover{ background-color:initial;background-color:rgba(grey,20%); }
 }
 
-ul.task-list { list-style:none;padding-left:.5rem; }
-.task-list-item-checkbox { margin:5px; }
-
 .footnotes { font-size:.87em;border-top:2px solid grey;border-top-color:rgba(grey,30%);margin:24px 0; }
-a.footnote { margin:0 2px; }
-a.reversefootnote:hover { text-decoration:none; }
 
 .markdown-body {
   h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0 }

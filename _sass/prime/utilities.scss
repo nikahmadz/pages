@@ -1,5 +1,14 @@
 /*! (c) Copyright Nik Ahmad : utilities v0.1 */
 
+abbr { cursor:help; text-underline-offset:1px; }
+mark { padding:0 .2em; }
+
+ul.task-list { list-style:none;padding-left:.5rem; }
+.task-list-item-checkbox { margin:5px; }
+
+a.footnote { margin:0 2px; }
+a.reversefootnote:hover { text-decoration:none; }
+
 .relative { position:relative }
 
 .indent { text-indent:2rem }

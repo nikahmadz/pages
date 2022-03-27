@@ -1,0 +1,20 @@
+---
+---
+@import "jekyll-theme-primer";
+
+/*! (c) Copyright Nik Ahmad : prime v0.1 */
+@import "prime/utilities";
+
+.footnotes { font-size:.87em;border-top:3px solid #e1e4e8;margin:24px 0; }
+
+// utilities
+
+.p { margin-bottom:16px }
+.box { padding:.5em;border-radius:6px; }
+
+.hero {
+  font-size:2.5em;
+  font-weight:700;
+  letter-spacing:-1px;
+  line-height:1.2;
+}
