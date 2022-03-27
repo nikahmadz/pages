@@ -1,4 +1,4 @@
-# Pages
+## <a href="https://nikahmadz.github.io/pages" class="text-secondary">Pages</a> template by [nikahmadz][1]
 
 <p class="hero">Build <span class="text-red">beautiful website</span> in minutes<br />
 using <mark>Markdown and HTML</mark></p>
@@ -17,7 +17,7 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 [how]:   #how-to-use-it "Find out how you can use this template to build websites"
 [source]: https://github.com/nikahmadz/pages "View source on Github"
-[demo]:   #demo "View demo page"
+[demo]:   #demo "View live demo"
 
 ***
 
@@ -27,13 +27,12 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ***
 
-## <span class="text-secondary">Pages</span> template by [nikahmadz][1]
+## Demo
 
-<h5 class="float-left">Demo :</h5>
-
-[default](./demo/default)
-[primer](./demo/primer)
-[prime](./demo/prime)
+<b class="float-left">Demo :</b>
+[default](//nikahmadz.github.io/pages/demo/default)
+[primer](//nikahmadz.github.io/pages/demo/primer)
+[prime](//nikahmadz.github.io/pages/demo/prime)
 
 ## How to use it?
 
