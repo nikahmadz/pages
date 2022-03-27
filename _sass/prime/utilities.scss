@@ -1,0 +1,30 @@
+/*! (c) Copyright Nik Ahmad : utilities v0.1 */
+
+.relative { position:relative }
+
+.indent { text-indent:2rem }
+.nowrap { white-space:nowrap }
+
+.big-first{
+  &.indent {
+    text-indent:0;
+    &::first-letter { margin-left:2rem }
+  }
+  &::first-letter {
+    float:left;
+    font-size:4.5em;
+    font-weight:700;
+    line-height:1;
+    margin-right:.1em;
+    font-family:Georgia,Constantia,Cambria,"Book Antiqua","Palatino Linotype","Big Caslon",serif;
+  }
+}
+
+.text-white { color:white !important }
+.text-black { color:black !important }
+.text-gray,.text-grey { color:grey !important }
+.text-slategray,.text-slategrey { color:slategrey !important }
+
+.text-medium { font-size:16px !important }
+
+.text-justify { text-align:justify }

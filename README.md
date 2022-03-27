@@ -3,7 +3,8 @@
 
 ***
 
-**Demo** :
+## Demo
+
 [default](./demo/default)
 [primer](./demo/primer)
 [prime](./demo/prime)

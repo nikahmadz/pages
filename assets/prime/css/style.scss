@@ -6,11 +6,10 @@
 @import "primer-layout/index.scss";
 @import "primer-markdown/index.scss";
 
-// prime customs
-@import "prime/rouge-base16-dark";
-@import "prime/base-scroll";
-
 /*! (c) Copyright Nik Ahmad : prime v0.1 */
+@import "rouge-base16-dark";
+@import "base-scroll";
+@import "prime/utilities";
 
 body { background-color:initial;color:initial; }
 a { color:#4660e1; }
@@ -53,34 +52,10 @@ a.reversefootnote:hover { text-decoration:none; }
   code, tt { background-color:initial;background-color:rgba(grey,30%); }
 }
 
-// prime extras
+// utilities
 
-.relative { position:relative }
 .p { margin-bottom:16px }
 .box { padding:.5em;border-radius:6px; }
-
-.indent { text-indent:2rem }
-.nowrap { white-space:nowrap }
-
-.big-first{
-  &.indent {
-    text-indent: 0;
-    &::first-letter { margin-left: 2rem }
-  }
-  &::first-letter {
-    float: left;
-    font-size: 4.5em;
-    font-weight: 700;
-    line-height: 1;
-    margin-right: .1em;
-    font-family: Georgia,Constantia,Cambria,"Book Antiqua","Palatino Linotype","Big Caslon",serif;
-  }
-}
-
-.text-white { color:white !important }
-.text-black { color:black !important }
-.text-gray,.text-grey { color:grey !important }
-.text-slategray,.text-slategrey { color:slategrey !important }
 
 .text-secondary { color:initial !important }
 .bg-secondary {
@@ -91,8 +66,6 @@ a.reversefootnote:hover { text-decoration:none; }
 
 .text-primary { color:#4660e1 !important }
 .bg-primary { background-color:#4660e1 }
-
-.text-justify { text-align:justify }
 
 .hero {
   font-size:2.5em;
