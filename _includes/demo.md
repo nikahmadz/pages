@@ -105,7 +105,7 @@ Add full scale images, align them centered or float them left or right.
 
 ![Large image](https://picsum.photos/id/3/1024/368){: .width-full.centered }
 
-> Images for this demo came from [picsum.photos](https://picsum.photos/)
+> Images for this demo came from [picsum.photos](https://picsum.photos/) and [unsplash](https://unsplash.com)
 
 ***
 
@@ -161,7 +161,7 @@ Add full scale images, align them centered or float them left or right.
 
 ## Table
 
-| Description       | Status       | Notes      |
+| Simple table      | Status       | Notes      |
 | :---------------- | :----------: | ---------: |
 | good swedish fish | ok           | nice       |
 | good and plenty   | out of stock | nice       |
