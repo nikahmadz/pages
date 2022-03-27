@@ -1,5 +1,3 @@
-> **Template Demo**
-
 This template helps you build websites on **Github**.
 It has everything pre-configured to get you started right away.
 You can write your content in Markdown and HTML.

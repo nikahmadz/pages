@@ -1,7 +1,7 @@
 ---
 layout: primer
 ---
-> **Template Demo**
+> **Primer Demo**
 
 This template helps you build websites on **Github**.
 It has everything pre-configured to get you started right away.
