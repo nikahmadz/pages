@@ -193,24 +193,24 @@ Add full scale images, align them centered or float them left or right.
 {% if site.posts.size > 0 %}
 
 You can create links to
-[a post](./first-post "First Post"),
-[a page](./page-example "Page Example"),
+[a post](../first-post "First Post"),
+[a page](../pages/example "Page Example"),
 or make a list of all the posts you have:
 
 <ul>
   {% for post in site.posts %}
-    <li><a href=".{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="..{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
 {% else %}
 
 You can create links to
-[a page](./pages/example "Page Example").
+[a page](../pages/example "Page Example").
 
 {% endif %}
 
-If you link to a missing page, you'll see [an error](./404 "Page not found").
+If you link to a missing page, you'll see [an error](../404 "Page not found").
 
 ***
 

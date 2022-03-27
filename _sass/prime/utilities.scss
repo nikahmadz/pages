@@ -9,6 +9,14 @@ ul.task-list { list-style:none;padding-left:.5rem; }
 a.footnote { margin:0 2px; }
 a.reversefootnote:hover { text-decoration:none; }
 
+.markdown-body {
+  table {
+    &.full { display:table }
+    &.simple { th, td { border:0 } }
+    &.borderless { tr, th, td { border:0 } tr { background:0  } }
+  }
+}
+
 .relative { position:relative }
 
 .indent { text-indent:2rem }

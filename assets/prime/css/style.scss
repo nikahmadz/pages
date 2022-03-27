@@ -21,7 +21,11 @@ summary {
   &:hover{ background-color:initial;background-color:rgba(grey,20%); }
 }
 
-.footnotes { font-size:.87em;border-top:2px solid grey;border-top-color:rgba(grey,30%);margin:24px 0; }
+.footnotes {
+  font-size:.87em;
+  margin:24px 0;
+  border-top:2px solid grey;border-top-color:rgba(grey,30%);
+}
 
 .markdown-body {
   h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0 }
@@ -33,9 +37,6 @@ summary {
     tr { background-color:initial;background-color:rgba(grey,10%); }
     thead tr,
     tr:nth-child(2n) { background-color:initial;background-color:rgba(grey,20%); }
-    &.full { display:table }
-    &.simple { th, td { border:0 } }
-    &.borderless { tr, th, td { border:0 } tr { background:0  } }
   }
   .highlight { background-color:#202020;color:#6a9fb5;border-radius:4px; }
   .highlight pre, pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }

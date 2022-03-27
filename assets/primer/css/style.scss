@@ -5,7 +5,15 @@
 /*! (c) Copyright Nik Ahmad : prime v0.1 */
 @import "prime/utilities";
 
-.footnotes { font-size:.87em;border-top:3px solid #e1e4e8;margin:24px 0; }
+$primary-color:#0366d6;
+$border-color:#e1e4e8;
+$bg-color:#f6f8fa;
+
+.footnotes {
+  font-size:.87em;
+  margin:24px 0;
+  border-top:4px solid $border-color;
+}
 
 // utilities
 
@@ -14,12 +22,12 @@
 
 .text-secondary { color:initial !important }
 .bg-secondary {
-  background-color:#f6f8fa;
-  border:2px solid #e1e4e8;
+  background-color:$bg-color;
+  border:2px solid $border-color;
 }
 
-.text-primary { color:#0366d6 !important }
-.bg-primary { background-color:#0366d6 }
+.text-primary { color:$primary-color !important }
+.bg-primary { background-color:$primary-color }
 
 .hero {
   font-size:2.5em;
