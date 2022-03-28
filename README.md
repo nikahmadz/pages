@@ -105,7 +105,6 @@ and check out the [documentation](https://docs.github.com/categories/github-page
 Having trouble with **Github Pages**?
 [Contact support](https://support.github.com/contact) to sort it out.
 
-***
 
 ## Sponsor
 
