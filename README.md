@@ -44,7 +44,7 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ```yml
 # The theme of your site
-remote_theme: nikahmadz/pages@v0.1.7
+remote_theme: nikahmadz/pages@v0.1.8
 ```
 
 #### Writing content
