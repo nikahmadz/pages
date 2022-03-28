@@ -3,19 +3,26 @@
 /*! (c) Copyright Nik Ahmad : base v0.1 */
 @import "primer-utilities/index.scss";
 @import "primer-layout/index.scss";
-@import "primer-markdown/index.scss";
+@import "primer-markdown/lib/code.scss";
+@import "primer-markdown/lib/blob-csv.scss";
 @import "rouge-base16-dark";
 @import "base-v1.0";
 @import "utilities";
 
 $primary-color:#0366d6;
-$border-color:#e1e4e8;
-$bg-color:#f6f8fa;
+
+a { text-decoration:none; &:hover{ text-decoration-line:underline } }
+
+blockquote {
+margin:.5rem;
+padding:0 1em;
+box-shadow:.4em 0 rgba(grey,50%) inset;
+}
 
 .footnotes {
   font-size:.87em;
   margin:24px 0;
-  border-top:4px solid $border-color;
+  border-top:2px solid grey;border-top-color:rgba(grey,30%);
 }
 
 // utilities
@@ -24,7 +31,11 @@ $bg-color:#f6f8fa;
 .box { padding:.5em;border-radius:6px; }
 
 .text-secondary { color:initial !important }
-.bg-secondary { background-color:$bg-color }
+.bg-secondary {
+  background-color:rgba(slategrey,25%);
+  border:1px solid grey;
+  border-color:rgba(grey,0.25);
+}
 
 .text-primary { color:$primary-color !important }
 .bg-primary { background-color:$primary-color; code{ background-color:rgba(27,31,35,0.3) } }
