@@ -85,7 +85,8 @@ input[type="checkbox"]{
     color:#6a9fb5;
     border-radius:4px;
   }
-  .highlight pre, pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }
+  pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }
+  .highlight pre { background-color:initial;border:0; }
 }
 
 // utilities

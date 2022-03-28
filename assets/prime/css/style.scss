@@ -45,7 +45,8 @@ summary {
     border-radius:4px;
     box-shadow:0 2px 4px 2px rgba(black,50%) inset, 0 0 0 1px rgba(black,50%) inset;
   }
-  .highlight pre, pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }
+  pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }
+  .highlight pre { background-color:initial;border:0; }
   hr { background-color:grey;opacity:.3; }
   h1, h2, h3, h4, h5, h6 { color:slategray;border-bottom-color:grey;border-bottom-color:rgba(grey,30%); }
   blockquote { color:slategray;border-left-color:slategray;border-left-color:rgba(slategray,50%); }
