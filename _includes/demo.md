@@ -42,8 +42,9 @@ Include image with floats and margins.
 ## Text styles &amp; color
 
 Text can be written in **bold**, _italic_, ***both***, ~~strikethrough~~,
-<abbr title="Abbreviation">abbr</abbr>, `code`
-or <mark>mark</mark>.
+<abbr title="Abbreviation">abbr</abbr>,
+<samp>samp</samp>,
+`code`, or <mark>mark</mark>.
 
 <b class="text-primary">primary</b>
 <b class="text-secondary">secondary</b>

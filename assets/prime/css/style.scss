@@ -38,9 +38,13 @@ summary {
     thead tr,
     tr:nth-child(2n) { background-color:initial;background-color:rgba(grey,20%); }
   }
-  img,
-  .highlight { box-shadow: 1px 1px 3px black; }
-  .highlight { background-color:#202020;color:#6a9fb5;border-radius:4px; }
+  img { box-shadow:0 1px 3px 1px rgba(black,50%), 0 0 0 1px rgba(black,50%); }
+  .highlight {
+    background-color:#202020;
+    color:#6a9fb5;
+    border-radius:4px;
+    box-shadow:0 2px 4px 2px rgba(black,50%) inset, 0 0 0 1px rgba(black,50%) inset;
+  }
   .highlight pre, pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }
   hr { background-color:grey;opacity:.3; }
   h1, h2, h3, h4, h5, h6 { color:slategray;border-bottom-color:grey;border-bottom-color:rgba(grey,30%); }

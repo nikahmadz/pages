@@ -17,6 +17,7 @@ a {
   text-decoration:none;
   &:hover{ text-decoration-line:underline }
 }
+
 summary {
   cursor:pointer;
   margin-bottom:16px;
@@ -26,9 +27,29 @@ summary {
 }
 
 blockquote {
-margin:.5rem;
-padding:0 1em;
-box-shadow:.4em 0 rgba(grey,50%) inset;
+  margin:.5rem 0;
+  padding:0 1em;
+  box-shadow:.4em 0 rgba(grey,50%) inset;
+}
+
+dt {
+  font-weight:700;
+  font-style:italic;
+}
+
+table {
+  border-spacing:0;
+  border-collapse:collapse;
+  margin-bottom: 16px;
+}
+
+h2 { border-bottom:1px solid grey;border-bottom-color:rgba(grey,50%) }
+
+.task-list-item-checkbox {
+  margin:0 5px;
+  height:1.3875em;
+  width:1.3875em;
+  vertical-align:text-top;
 }
 
 .footnotes {
@@ -40,8 +61,19 @@ box-shadow:.4em 0 rgba(grey,50%) inset;
 .markdown-body {
   h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0 }
   h1 a { color:inherit; &:hover{ text-decoration:none;color:$primary-color; } }
-  img,
-  .highlight { box-shadow: 1px 1px 3px black; }
+  table {
+    tr, th, td { border-color:grey; }
+    tr { background-color:initial;background-color:rgba(grey,10%); }
+    thead tr,
+    tr:nth-child(2n) { background-color:initial;background-color:rgba(grey,20%); }
+  }
+  img { box-shadow:0 1px 3px 1px rgba(black,50%), 0 0 0 1px rgba(black,50%); }
+  .highlight {
+    background-color:#202020;
+    color:#6a9fb5;
+    border-radius:4px;
+    box-shadow:0 2px 4px 2px rgba(black,50%) inset, 0 0 0 1px rgba(black,50%) inset;
+  }
   .highlight { background-color:#202020;color:#6a9fb5;border-radius:4px; }
   .highlight pre, pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }
 }
