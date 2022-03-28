@@ -31,7 +31,6 @@ summary {
 .markdown-body {
   h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0 }
   h1 a { color:inherit; &:hover{ text-decoration:none;color:$primary-color; } }
-  img { box-shadow: 1px 1px 3px black; }
   dt { color:#6a737d }
   table {
     tr, th, td { border-color:grey; }
@@ -39,6 +38,8 @@ summary {
     thead tr,
     tr:nth-child(2n) { background-color:initial;background-color:rgba(grey,20%); }
   }
+  img,
+  .highlight { box-shadow: 1px 1px 3px black; }
   .highlight { background-color:#202020;color:#6a9fb5;border-radius:4px; }
   .highlight pre, pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }
   hr { background-color:grey;opacity:.3; }
