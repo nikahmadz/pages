@@ -71,6 +71,7 @@ Go to **Github Pages Settings** of your repository.
 - Your app will be accessible at `//<user-name>.github.io/<repo-name>`.
 - Find out how you can [customize your theme here](https://github.com/pages-themes).
 
+
 ***
 
 ## Using markdown
@@ -105,17 +106,17 @@ and check out the [documentation](https://docs.github.com/categories/github-page
 Having trouble with **Github Pages**?
 [Contact support](https://support.github.com/contact) to sort it out.
 
-
 ## Sponsor
 
 🌱 If you use this work and like it, **please consider [supporting my work][pay]**, so I can continue making it better.
 
 [pay]: https://nikahmadz.github.io/#!pay "See payment options"
 
+
+{: style="margin-top:4rem" }
 ***
 
-[Home][1] &middot; [Github][2] &middot; [Discuss][3]
+❤️ [nikahmadz][1] &middot; [Source][source] &middot; [Discuss][discuss]
 
-[1]:https://nikahmadz.github.io "Go to nikahmadz.github.io"
-[2]:https://github.com/nikahmadz "Follow me on Github"
-[3]:https://github.com/nikahmadz/nikahmadz.github.io/discussions "Go to Discussion Room"
+[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
+[discuss]:   https://github.com/nikahmadz/nikahmadz.github.io/discussions "Go to Discussion Room"
