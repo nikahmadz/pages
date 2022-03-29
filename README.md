@@ -118,5 +118,5 @@ Having trouble with **Github Pages**?
 
 ❤️ [nikahmadz][1] &middot; [Source][source] &middot; [Discuss][discuss]
 
-[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
+[1]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
 [discuss]:   https://github.com/nikahmadz/nikahmadz.github.io/discussions "Go to Discussion Room"
