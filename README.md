@@ -47,16 +47,6 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 remote_theme: nikahmadz/pages@v0.1.11
 ```
 
-#### Writing content
-
-On every content you create, start with the following front-matter.
-If you don't specify the `layout` value, default value is used.
-
-```yml
----
-layout: <layout-name>
----
-```
 
 #### Activating Github Pages
 
@@ -70,6 +60,22 @@ Go to **Github Pages Settings** of your repository.
 
 - Your app will be accessible at `//<user-name>.github.io/<repo-name>`.
 - Find out how you can [customize your theme here](https://github.com/pages-themes).
+
+
+#### Writing content
+
+On every content you create, start with the following front-matter.
+If you don't specify the `layout` value, default value is used.
+
+```yml
+---
+layout: layout-name
+title: "Title of the article" # page.title
+description: "Short description for the article." # page.description
+site_title: # (true/false) false will hide first <h1>
+permalink: # permalink path for the page
+---
+```
 
 
 ***
