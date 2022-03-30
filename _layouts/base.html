@@ -16,12 +16,10 @@
 </head>
 <body>
 <main id="_app" class="_app __fadein">
-<div id="_layout" class="container-lg px-3 my-3">
-<article class="markdown-body">
-{% include header-custom.html %}
-{{ content }}
-{% include footer-custom.html %}
-</article>
+<div id="_layout" class="container-lg px-3 my-3 markdown-body">
+<header>{% include header-custom.html %}</header>
+<article>{{ content }}</article>
+<footer>{% include footer-custom.html %}</footer>
 </div>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>

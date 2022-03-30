@@ -31,15 +31,6 @@ summary {
   border-top:4px solid $border-color;border-top-color:$border-color-alpha;
 }
 
-h1 {
-  font-size:1.2em;
-  font-weight:600;
-  color:grey;
-  margin-top:0;
-  border-bottom:2px solid $border-color;border-bottom-color:$border-color-alpha;
-  a { color:inherit; &:hover{ text-decoration:none;color:$primary-color; } }
-}
-
 .markdown-body {
 
   h1,h2,h3,h4,h5,h6 { font-weight:600;margin:1rem 0;line-height:1; }
@@ -53,6 +44,7 @@ h1 {
     border-bottom:2px solid $border-color;border-bottom-color:$border-color-alpha;
     padding-bottom:.3em;
   }
+  header h1 { font-size:1.2em;margin-top:0; }
 
   hr { background-color:$border-color;background-color:$border-color-alpha; }
 
