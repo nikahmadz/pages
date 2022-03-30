@@ -57,7 +57,6 @@ Go to **Github Pages Settings** of your repository.
 2. Choose the source of your website. eg: `main/(root)`
 3. Click **Save**.
 
-
 - Your app will be accessible at `//<user-name>.github.io/<repo-name>`.
 - Find out how you can [customize your theme here](https://github.com/pages-themes).
 
@@ -70,10 +69,10 @@ If you don't specify the `layout` value, default value is used.
 ```yml
 ---
 layout: layout-name
-title: "Title of the article" # page.title
-description: "Short description for the article." # page.description
-site_title: # (true/false) false will hide first <h1>
-permalink: # permalink path for the page
+title: "Title of the article" # (optional: page.title)
+description: "Short description for the article." # (optional: page.description)
+site_title: # (optional: false) will hide first <h1>
+permalink: # (optional: permalink) path-name for the page
 ---
 ```
 
