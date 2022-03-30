@@ -66,8 +66,8 @@ h1 {
   pre {
     background-color:initial;
     border:1px solid $border-color;border-color:$border-color-alpha;
-    .highlight & { background-color:initial;border:0; }
   }
+  .highlight pre { background-color:initial;border:0; }
 
   summary {
     cursor:pointer;

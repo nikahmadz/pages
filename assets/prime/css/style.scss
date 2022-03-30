@@ -58,17 +58,15 @@ summary {
   pre {
     background-color:initial;
     border:1px solid $border-color;border-color:$border-color-alpha;
-    .highlight & { background-color:initial;border:0; }
   }
+  .highlight pre { background-color:initial;border:0; }
 
   blockquote { color:slategray;border-left-color:slategray;border-left-color:rgba(slategray,50%); }
 
   dt { color:#6a737d }
 
-  code, tt {
-    background-color:initial;background-color:$bg-color;
-    pre & { background:transparent }
-  }
+  code, tt { background-color:initial;background-color:$bg-color; }
+  pre { code, tt { background:transparent } }
 
 }
 
