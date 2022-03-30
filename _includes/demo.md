@@ -215,7 +215,7 @@ If you link to a missing page, you'll see [an error](../404 "Page not found").
 
 ## Color scheme
 
-<b><a href="#" onclick="event.preventDefault;base.theme.change()" title="Change theme (Alt+T)">Change theme (Alt+T)</a></b>
+<b><a href="#" onclick="event.preventDefault();window.base&&window.base.theme.change()" title="Change theme (Alt+T)">Change theme (Alt+T)</a></b>
 
 
 ## Footnotes
