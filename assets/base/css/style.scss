@@ -29,12 +29,17 @@ a {
 
 .markdown-body {
 
-  h1,h2,h3,h4,h5,h6 { font-weight:600;margin:1rem 0;line-height:1; }
+  h1,h2,h3,h4,h5,h6 { font-weight:600;margin:1em 0 1rem 0;line-height:1; }
   h1 {
     font-size:2em;
     color:grey;
     a { color:inherit; &:hover{ text-decoration:none;color:$primary-color; } }
   }
+  h2 { font-size:1.8em }
+  h3 { font-size:1.6em }
+  h4 { font-size:1.4em }
+  h5 { font-size:1.2em }
+  h6 { font-size:1em }
   h1,
   h2 {
     border-bottom:2px solid $border-color;border-bottom-color:$border-color-alpha;

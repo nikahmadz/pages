@@ -110,12 +110,12 @@ Add full scale images, align them centered or float them left or right.
 
 ***
 
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
 
 ## List
