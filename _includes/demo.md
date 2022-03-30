@@ -117,7 +117,6 @@ Add full scale images, align them centered or float them left or right.
 ##### Header 5
 ###### Header 6
 
-***
 
 ## List
 
