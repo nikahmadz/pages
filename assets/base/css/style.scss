@@ -13,7 +13,7 @@
 $primary-color:#4660e1;
 $border-color:grey;
 $border-color-alpha:rgba(grey,40%);
-$bg-color:rgba(200,200,200,30%);
+$bg-color:rgba(grey,30%);
 
 a {
   color:$primary-color;
@@ -85,6 +85,9 @@ h1 {
 
   dt { font-weight:700;font-style:italic; }
   dd { padding-left:1em;margin-left:0; }
+
+  code, tt { background-color:initial;background-color:$bg-color; }
+  pre { code, tt { background:transparent } }
 
 }
 
