@@ -27,16 +27,11 @@ a {
   border-top:2px solid grey;border-top-color:rgba(grey,30%);
 }
 
-h1 {
-  font-size:1.4em;
-  border-bottom:2px solid $border-color;border-bottom-color:$border-color-alpha;
-}
-
 .markdown-body {
 
   h2,h3,h4,h5,h6 { font-weight:500 }
   h1, h2, h3, h4, h5, h6 { margin:1rem 0;border-bottom-color:$border-color;border-bottom-color:$border-color-alpha; }
-  h1 { font-size:1.4em;margin-top:0;color:grey }
+  h1 { font-size:1.4em;margin-top:0;color:grey;border-bottom-width:2px; }
   h1 a { color:inherit; &:hover{ text-decoration:none;color:$primary-color; } }
   h2 { border-bottom:1px solid $border-color;border-bottom-color:$border-color-alpha; }
 
