@@ -4,21 +4,21 @@ abbr { cursor:help; text-underline-offset:1px; }
 mark { padding:0 .2em; }
 
 ul.task-list { list-style:none;padding-left:.5rem; }
-.task-list-item-checkbox { margin:5px; }
+input[type="checkbox"]{
+  &.task-list-item-checkbox {
+    margin:0 5px;
+    height:1.3875em;
+    width:1.3875em;
+    vertical-align:text-top;
+  }
+}
 
 a.footnote { margin:0 2px; }
 a.reversefootnote:hover { text-decoration:none; }
 
-.markdown-body {
-  table {
-    &.full { display:table }
-    &.simple { th, td { border:0 } }
-    &.borderless { tr, th, td { border:0 } tr { background:0  } }
-  }
-}
+// extras
 
 .relative { position:relative }
-
 .indent { text-indent:2rem }
 .nowrap { white-space:nowrap }
 
@@ -45,3 +45,11 @@ a.reversefootnote:hover { text-decoration:none; }
 .text-medium { font-size:16px !important }
 
 .text-justify { text-align:justify }
+
+.markdown-body {
+  table {
+    &.full { display:table }
+    &.simple { th, td { border:0 } }
+    &.borderless { tr, th, td { border:0 } tr { background:0  } }
+  }
+}

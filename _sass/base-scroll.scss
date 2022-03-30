@@ -13,14 +13,14 @@
 
 ::-webkit-resizer {
   background: 0;
-  border: 3px solid rgba(128, 128, 128, 0);
-  border-right-color: rgba(128, 128, 128, 0.5);
-  border-bottom-color: rgba(128, 128, 128, 0.5);
+  border: 3px solid rgba(grey, 0);
+  border-right-color: rgba(grey, 0.5);
+  border-bottom-color: rgba(grey, 0.5);
 }
 
 ::-webkit-scrollbar-thumb {
   background: 0;
-  border: 5px solid rgba(128, 128, 128, 0);
+  border: 5px solid rgba(grey, 0);
   border-radius: 7px;
   box-shadow: 0 0 0 2px gray inset;
 }

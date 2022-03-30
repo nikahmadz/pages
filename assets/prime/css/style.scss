@@ -11,6 +11,9 @@
 @import "utilities";
 
 $primary-color:#4660e1;
+$border-color:grey;
+$border-color-alpha:rgba(grey,40%);
+$bg-color:#f6f8fa;
 
 body { background-color:initial;color:initial; }
 a { color:$primary-color; }
@@ -25,15 +28,16 @@ summary {
 .footnotes {
   font-size:.87em;
   margin:24px 0;
-  border-top:2px solid grey;border-top-color:rgba(grey,30%);
+  border-top:2px solid $border-color;border-top-color:$border-color-alpha;
 }
 
 .markdown-body {
-  h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0 }
+  h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0;border-bottom-width:2px; }
   h1 a { color:inherit; &:hover{ text-decoration:none;color:$primary-color; } }
+  h1, h2, h3, h4, h5, h6 { border-bottom-color:$border-color;border-bottom-color:$border-color-alpha; }
   dt { color:#6a737d }
   table {
-    tr, th, td { border-color:grey; }
+    tr, th, td { border-color:$border-color;border-color:$border-color-alpha; }
     tr { background-color:initial;background-color:rgba(grey,10%); }
     thead tr,
     tr:nth-child(2n) { background-color:initial;background-color:rgba(grey,20%); }
@@ -45,15 +49,17 @@ summary {
     border-radius:4px;
     box-shadow:0 2px 4px 2px rgba(black,50%) inset, 0 0 0 1px rgba(black,50%) inset;
   }
-  pre { background-color:initial;border:1px solid grey;border-color:rgba(grey,50%); }
+  pre { background-color:initial;border:1px solid $border-color;border-color:$border-color-alpha; }
   .highlight pre { background-color:initial;border:0; }
   hr { background-color:grey;opacity:.3; }
-  h1, h2, h3, h4, h5, h6 { color:slategray;border-bottom-color:grey;border-bottom-color:rgba(grey,30%); }
   blockquote { color:slategray;border-left-color:slategray;border-left-color:rgba(slategray,50%); }
-  code, tt { background-color:initial;background-color:rgba(190,190,190,50%); }
+  code, tt {
+    background-color:initial;background-color:rgba(190,190,190,50%);
+    pre & { background:transparent }
+  }
 }
 
-// utilities
+// extra
 
 .p { margin-bottom:16px }
 .box { padding:.5em;border-radius:6px; }

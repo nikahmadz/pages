@@ -11,6 +11,9 @@
 @import "utilities";
 
 $primary-color:#4660e1;
+$border-color:grey;
+$border-color-alpha:rgba(grey,40%);
+$bg-color:#f6f8fa;
 
 a {
   color:$primary-color;
@@ -36,6 +39,7 @@ dt {
   font-weight:700;
   font-style:italic;
 }
+
 dd {
   padding-left:1em;
   margin-left:0;
@@ -49,15 +53,6 @@ table {
 
 h2,h3,h4,h5,h6 { font-weight:500 }
 h2 { border-bottom:1px solid grey;border-bottom-color:rgba(grey,50%) }
-
-input[type="checkbox"]{
-  &.task-list-item-checkbox {
-    margin:0 5px;
-    height:1.3875em;
-    width:1.3875em;
-    vertical-align:text-top;
-  }
-}
 
 .footnotes {
   font-size:.87em;
