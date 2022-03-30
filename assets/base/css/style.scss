@@ -28,8 +28,7 @@ a {
 }
 
 h1 {
-  font-size:1.2rem;
-  padding-bottom:.5rem;
+  font-size:1.4em;
   border-bottom:2px solid $border-color;border-bottom-color:$border-color-alpha;
 }
 
@@ -37,7 +36,7 @@ h1 {
 
   h2,h3,h4,h5,h6 { font-weight:500 }
   h1, h2, h3, h4, h5, h6 { margin:1rem 0;border-bottom-color:$border-color;border-bottom-color:$border-color-alpha; }
-  h1 { font-size:1.4em;font-weight:700;letter-spacing:-1px;margin-top:0 }
+  h1 { font-size:1.4em;margin-top:0;color:grey }
   h1 a { color:inherit; &:hover{ text-decoration:none;color:$primary-color; } }
   h2 { border-bottom:1px solid $border-color;border-bottom-color:$border-color-alpha; }
 
