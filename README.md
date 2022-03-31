@@ -1,4 +1,6 @@
-<blockquote class="hero">✨ <b>Build <span class="text-red">beautiful website</span> in minutes</b></blockquote>
+<blockquote class="hero">
+✨ Build <span class="text-red">beautiful website</span> in minutes
+</blockquote>
 
 ***
 
