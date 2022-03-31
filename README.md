@@ -4,8 +4,8 @@
 
 **[Pages][intro]** helps you build websites on **Github**.
 It has everything configured to get you started right away.
-Write your content in Markdown and HTML.
 Maintain the content of your website with any code editor you like.
+You can write your content in Markdown and HTML.
 When you commit your code, **Github Pages** will build your website from the content of your files.
 
 **[Get started][start]** &middot;
