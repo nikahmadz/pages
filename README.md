@@ -2,11 +2,11 @@
 
 ***
 
-**[Pages][intro]** helps you build websites on **Github**.
+<p class="big-first">This template helps you build websites on **Github**.
 It has everything configured to get you started right away.
 Maintain the content of your website with any code editor you like.
 You can write your content in Markdown and HTML.
-When you commit your code, **Github Pages** will build your website from the content of your files.
+When you commit your code, **Github Pages** will build your website from the content of your files.</p>
 
 **[Get started][start]** &middot;
 **[Demo][demo]**
