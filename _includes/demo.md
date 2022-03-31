@@ -16,8 +16,7 @@ When you commit your code, **Github Pages** will build your website from the con
 
 ***
 
-Write eye-catching <span class="text-red">hero texts</span>  
-to <mark>get readers attention</mark>
+You can write <span class="text-red">hero texts</span> too
 {: .hero }
 
 ***
