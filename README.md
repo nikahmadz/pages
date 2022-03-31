@@ -25,14 +25,13 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ***
 
-## <a href="//nikahmadz.github.io/pages" class="text-secondary">Pages</a> template by [nikahmadz][1]
+## <a id="demo" href="//nikahmadz.github.io/pages" class="text-secondary">Pages</a> template by [nikahmadz][1]
 
 **Demo** :
 [default](//nikahmadz.github.io/pages/demo/default)
 [base](//nikahmadz.github.io/pages/demo/base)
 [prime](//nikahmadz.github.io/pages/demo/prime)
 [primer](//nikahmadz.github.io/pages/demo/primer)
-{: .p-3 id="demo" }
 
 ## How to use it?
 
@@ -118,7 +117,8 @@ Having trouble with **Github Pages**?
 [pay]: https://nikahmadz.github.io/#!pay "See payment options"
 
 
-{: style="margin-top:4rem" }
+<div style="margin-top:4rem"></div>
+
 ***
 
 ❤️ [nikahmadz][1] &middot; [Source][source] &middot; [Discuss][discuss]
