@@ -1,8 +1,5 @@
-## [Pages][] templates by [nikahmadz][]
+## [Pages](https://nikahmadz.github.io/pages/ "Introduction to Pages")
 > ✨ Build beautiful website in minutes
-
-[Pages]:     https://nikahmadz.github.io/pages/ "Introduction to Pages"
-[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
 
 ***
 
@@ -26,8 +23,7 @@ When you commit your code, **Github Pages** will build your website from the con
 
 ***
 
-## Available layouts
-{: id="demo" }
+## <a id="demo">Available layouts</a>
 
 **Demo** :
 **[Base](//nikahmadz.github.io/pages/demo/base)**
@@ -124,5 +120,6 @@ Having trouble with **Github Pages**?
 
 ❤️ [nikahmadz][] &middot; [Github][github] &middot; [Discuss][discuss]
 
+[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
 [github]:    https://github.com/nikahmadz/pages "View source on Github"
 [discuss]:   https://github.com/nikahmadz/pages/discussions "Lets discuss about Pages"
