@@ -23,7 +23,7 @@ When you commit your code, **Github Pages** will build your website from the con
 
 ***
 
-## <a id="demo">Available layouts</a>
+## <span id="demo">Available layouts</span>
 
 **Demo** :
 **[Base](//nikahmadz.github.io/pages/demo/base)**
