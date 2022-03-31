@@ -25,7 +25,7 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ***
 
-## <a id="demo" href="//nikahmadz.github.io/pages" class="text-secondary">Pages</a> template by [nikahmadz][1]
+## <a id="demo" href="//nikahmadz.github.io/pages" class="text-secondary _no-focus">Pages</a> template by [nikahmadz][1]
 
 **Demo** :
 [default](//nikahmadz.github.io/pages/demo/default)
