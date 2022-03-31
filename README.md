@@ -28,9 +28,9 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 ## <a id="demo" href="//nikahmadz.github.io/pages" class="text-secondary _no-focus">Pages</a> template by [nikahmadz][1]
 
 **Demo** :
-[base](//nikahmadz.github.io/pages/demo/base)
-[prime](//nikahmadz.github.io/pages/demo/prime)
-[primer](//nikahmadz.github.io/pages/demo/primer)
+[Base](//nikahmadz.github.io/pages/demo/base)
+[Prime](//nikahmadz.github.io/pages/demo/prime)
+[Primer](//nikahmadz.github.io/pages/demo/primer)
 
 ## How to use it?
 
