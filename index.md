@@ -1,19 +1,17 @@
-## [Pages][] templates by [nikahmadz][]
-> ✨ Build beautiful website in minutes
-
-[Pages]:     https://nikahmadz.github.io/pages/ "Introduction to Pages"
-[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
+Build <span class="text-red">beautiful website</span> in minutes
+{: .hero }
 
 ***
 
-**Pages** helps you build websites on **Github**.
+Pages helps you build websites on <b>Github</b>.
 It has everything pre-configured to get you started right away.
 You can write your content in Markdown and HTML.
 Maintain the content of your website with any code editor you like.
-When you commit your code, **Github Pages** will build your website from the content of your files.
+When you commit your code, <b>Github Pages</b> will build your website from the content of your files.
+{: .big-first }
 
-**[Get started][start]** &middot;
-**[Demo][demo]**
+[Get started][start]{: ._bt.-l.-blue }
+[Demo][demo]{: ._bt.-l.-flat }
 
 [start]: #how-to-use-it "Find out how you can use this template to build websites"
 [demo]:  #demo "View live demo"
@@ -26,8 +24,7 @@ When you commit your code, **Github Pages** will build your website from the con
 
 ***
 
-## Available layouts
-{: id="demo" }
+## <a id="demo" href="//nikahmadz.github.io/pages" class="text-secondary _no-focus">Pages</a> templates by [nikahmadz][]
 
 **Demo** :
 **[Base](//nikahmadz.github.io/pages/demo/base)**
@@ -124,5 +121,6 @@ Having trouble with **Github Pages**?
 
 ❤️ [nikahmadz][] &middot; [Github][github] &middot; [Discuss][discuss]
 
+[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
 [github]:    https://github.com/nikahmadz/pages "View source on Github"
 [discuss]:   https://github.com/nikahmadz/pages/discussions "Lets discuss about Pages"
