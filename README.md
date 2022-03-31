@@ -1,9 +1,8 @@
-## [Pages](https://nikahmadz.github.io/pages/ "Introduction to Pages")
 > ✨ Build beautiful website in minutes
 
 ***
 
-**Pages** helps you build websites on **Github**.
+**[Pages][intro]** helps you build websites on **Github**.
 It has everything pre-configured to get you started right away.
 Write your content in Markdown and HTML.
 Maintain the content of your website with any code editor you like.
@@ -12,6 +11,7 @@ When you commit your code, **Github Pages** will build your website from the con
 **[Get started][start]** &middot;
 **[Demo][demo]**
 
+[intro]: https://nikahmadz.github.io/pages/ "Introduction to Pages"
 [start]: #how-to-use-it "Find out how you can use this template to build websites"
 [demo]:  #demo "View live demo"
 
