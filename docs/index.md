@@ -1,3 +1,3 @@
 ## Documentation
 
-- [Get started](https://github.com/nikahmadz/pages/doc/get-started "Find out how you can use this template to build websites")
+- [Get started](https://nikahmadz.github.io/pages/docs/get-started "Find out how you can use this template to build websites")
