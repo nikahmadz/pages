@@ -11,6 +11,7 @@ You can write your content in Markdown and HTML.
 When you commit your code, <b>Github Pages</b> will build your website from the content of your files.
 
 **[Get started][start]** &middot;
+**[View on Github][github]** &middot;
 **[Demo][demo]**
 
 [intro]: https://nikahmadz.github.io/pages/ "Introduction to Pages"
