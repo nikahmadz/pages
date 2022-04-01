@@ -16,7 +16,7 @@ Go to your **Github** repository and follow this guide to get it up and running.
 
 ```yml
 # The theme of your site
-remote_theme: nikahmadz/pages@v0.1.12
+remote_theme: nikahmadz/pages
 ```
 
 
