@@ -1,6 +1,5 @@
-<blockquote class="hero">
-✨ Build <span class="text-red">beautiful website</span> in minutes
-</blockquote>
+# [Pages][intro]
+>✨ Build beautiful website in minutes
 
 ***
 

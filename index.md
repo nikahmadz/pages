@@ -1,6 +1,4 @@
-<p class="hero">
-✨ Build <span class="text-red">beautiful website</span> in minutes
-</p>
+<p class="hero">Build <span class="text-red">beautiful website</span> in minutes</p>
 
 ***
 
@@ -10,8 +8,9 @@ Maintain the content of your website with any code editor you like.
 You can write your content in Markdown and HTML.
 When you commit your code, <b>Github Pages</b> will build your website from the content of your files.
 
-**[Get started][start]** &middot;
-**[Demo][demo]**
+[Get started][start]{: ._bt.-l.-blue }
+[View on Github][github]{: ._bt.-l.-blue.-flat }
+[Demo][demo]{: ._bt.-l.-blue.-flat }
 
 [intro]: https://nikahmadz.github.io/pages/ "Introduction to Pages"
 [start]: #how-to-use-it "Find out how you can use this template to build websites"
