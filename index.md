@@ -13,7 +13,7 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 [Demo][demo]{: ._bt.-l.-flat }
 
 [intro]: https://nikahmadz.github.io/pages/ "Introduction to Pages"
-[start]: https://github.com/nikahmadz/pages/doc/get-started "Find out how you can use this template to build websites"
+[start]: https://github.com/nikahmadz/pages/-/get-started "Find out how you can use this template to build websites"
 [demo]:  #demo "View live demo"
 
 ***
