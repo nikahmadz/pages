@@ -25,9 +25,8 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ***
 
-## <span id="demo">Available layouts</span>
+## <span id="demo">Demo pages</span>
 
-**Demo** :
 **[Base](//nikahmadz.github.io/pages/demo/base)**
 **[Prime](//nikahmadz.github.io/pages/demo/prime)**
 **[Primer](//nikahmadz.github.io/pages/demo/primer)**
