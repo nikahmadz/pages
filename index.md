@@ -20,7 +20,7 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 <p><img src="https://picsum.photos/id/1039/1024/368" alt="Large image" class="width-full centered"></p>
 
-> Images for this demo came from [picsum.photos](https://picsum.photos/) and [unsplash](https://unsplash.com)
+> Beautiful image from [picsum.photos](https://picsum.photos/)
 {: .m-0.text-grey.text-medium }
 
 ***
