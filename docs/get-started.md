@@ -43,7 +43,7 @@ Familiarize your self on the basics of [front-matter][],
 [writing posts][], and [creating pages][].
 
 On every content you create, start with the following [front-matter][].
-If you don't specify the `layout` value, default value is used.
+If you don't specify the value, default is used.
 
 [jekyllrb.com]: https://jekyllrb.com/
 [front-matter]: https://jekyllrb.com/docs/frontmatter/ "Read more"
@@ -53,10 +53,10 @@ If you don't specify the `layout` value, default value is used.
 ```yml
 ---
 layout: layout-name
-title: "Title of the article" # (optional: page.title)
-description: "Short description for the article." # (optional: page.description)
+title: "Title of the article"
+description: "Short description for the article."
 site_title: # (optional: false) will hide first <h1>
-permalink: # (optional: permalink) path-name for the page
+permalink: # (optional: permalink)
 ---
 ```
 
