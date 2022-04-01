@@ -9,8 +9,8 @@ You can write your content in Markdown and HTML.
 When you commit your code, <b>Github Pages</b> will build your website from the content of your files.
 
 [Get started][start]{: ._bt.-l.-blue }
-[View on Github][github]{: ._bt.-l.-blue.-flat }
-[Demo][demo]{: ._bt.-l.-blue.-flat }
+[View on Github][github]{: ._bt.-l.-flat }
+[Demo][demo]{: ._bt.-l.-flat }
 
 [intro]: https://nikahmadz.github.io/pages/ "Introduction to Pages"
 [start]: #how-to-use-it "Find out how you can use this template to build websites"
