@@ -6,13 +6,13 @@ When you commit your code, **Github Pages** will build your website from the con
 {: .bg-secondary.p-3.text-slategray.text-small }
 
 **[Intro][intro]** &middot;
-**[How to use it][how]** &middot;
+**[How to use][how]** &middot;
 **[View source][source]**
 {: .text-grey }
 
 [intro]:  https://nikahmadz.github.io/pages/ "Introduction to Pages"
-[how]:    https://nikahmadz.github.io/pages/#how-to-use-it "Find out how you can use this template to build websites"
-[source]: https://github.com/nikahmadz/pages "View on Github"
+[how]:    https://nikahmadz.github.io/pages/docs/get-started "Find out how you can use this template to build websites"
+[source]: https://github.com/nikahmadz/pages "View source on Github"
 
 ***
 
