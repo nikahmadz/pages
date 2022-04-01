@@ -35,12 +35,12 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 
 ## How to use
 
-Setting up a website on **Github Pages** is easy.
+Setting up a website on **Github Pages** is easy.  
 Read the [step-by-step guide][start] to get started.
 
 ## Getting help
 
-Having trouble with **Github Pages**?
+Having trouble with **Github Pages**?  
 [Contact support](https://support.github.com/contact) to sort it out.
 
 ## Sponsor

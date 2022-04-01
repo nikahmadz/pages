@@ -1,9 +1,9 @@
 ## Getting started with Pages
 
-Setting up a website on **Github Pages** is easy.
-You can check out the [official documentation][documentation] to know how it works.
+If you're not familiar with **Github Pages**
+check out the [official documentation][documentation] to know how it works.
 
-Go to your **Github** repository or [create a new one][new].
+Go to your **Github** repository or [create a new one][new].  
 Then follow these guide to get it up and running.
 
 [new]: https://github.com/new "Create new repository"
@@ -82,4 +82,4 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+For more details see [basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
