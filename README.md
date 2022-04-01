@@ -30,7 +30,10 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 **[Prime](//nikahmadz.github.io/pages/demo/prime)**
 **[Primer](//nikahmadz.github.io/pages/demo/primer)**
 
-***
+## How to use
+
+Setting up a website on **Github Pages** is easy.
+Read the [step-by-step guide][start] to get started.
 
 ## Getting help
 
@@ -43,8 +46,6 @@ Having trouble with **Github Pages**?
 
 [pay]: https://nikahmadz.github.io/#!pay "See payment options"
 
-
-<div style="margin-top:4rem"></div>
 
 ***
 

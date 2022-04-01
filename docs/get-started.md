@@ -1,6 +1,13 @@
 ## Getting started with Pages
 
-Check out the [documentation](https://docs.github.com/en/pages "Github Pages Documentation").
+Setting up a website on **Github Pages** is easy.
+You can check out the [official documentation][documentation] to know how it works.
+
+Go to your **Github** repository or [create a new one][new].
+Then follow these guide to get it up and running.
+
+[new]: https://github.com/new "Create new repository"
+[documentation]: https://docs.github.com/en/pages "Github Pages Documentation"
 
 #### Using template remotely
 

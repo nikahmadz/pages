@@ -31,7 +31,12 @@ When you commit your code, <b>Github Pages</b> will build your website from the 
 **[Prime](//nikahmadz.github.io/pages/demo/prime)**
 **[Primer](//nikahmadz.github.io/pages/demo/primer)**
 
-***
+<div style="margin-top:4rem"></div>
+
+## How to use
+
+Setting up a website on **Github Pages** is easy.
+Read the [step-by-step guide][start] to get started.
 
 ## Getting help
 
