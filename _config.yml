@@ -5,11 +5,10 @@ title: Pages # The title of your site
 
 # google_analytics: # Fill in your Google Analytics ID to track your website using Google Analytics
 
-sass:
+sass: # sass configurations
   style: compressed
 
-# Exclude these files from production site
-exclude:
+exclude: # Exclude these files from production site
 - "*.gemspec"
 - README.md
 - CONTRIBUTING.md
@@ -19,7 +18,6 @@ exclude:
 - Gemfile.lock
 - LICENSE.md
 
-# Jekyll plugins
-# plugins:
+# plugins: # jekyll plugins
 #  - jekyll-paginate
 #  - jekyll-sitemap
