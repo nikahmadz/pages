@@ -35,8 +35,8 @@ Go to **Github Pages Settings** of your repository.
 
 #### Writing content
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com][]
-for all the details, or read up on just the basics of [front-matter][],
+**Github Pages** uses [Jekyyll][jekyllrb.com] to build your website.
+Familiarize your self on the basics of [front-matter][],
 [writing posts][], and [creating pages][].
 
 On every content you create, start with the following [front-matter][].
