@@ -1,7 +1,6 @@
 ## Getting started with Pages
 
-You will be building your website on **Github Pages** so you should
-check out the [documentation](https://docs.github.com/en/pages "Github Pages Documentation").
+Check out the [documentation](https://docs.github.com/en/pages "Github Pages Documentation").
 
 #### Using template remotely
 
