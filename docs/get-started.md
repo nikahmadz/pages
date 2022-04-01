@@ -9,6 +9,7 @@ Go to your **Github** repository and follow this guide to get it up and running.
 [documentation]: https://docs.github.com/en/pages "Github Pages Documentation"
 
 #### Using template remotely
+{: .text-green }
 
 1. Edit the content `_config.yml` file of your site's repository.
 2. Remove existing values of `theme` and `remote_theme`.
@@ -21,6 +22,7 @@ remote_theme: nikahmadz/pages
 
 
 #### Activating Github Pages
+{: .text-green }
 
 Go to **Github Pages Settings** of your repository.  
 `//github.com/<user-name>/<repo-name>/settings/pages`
@@ -33,6 +35,7 @@ Go to **Github Pages Settings** of your repository.
 
 
 #### Writing content
+{: .text-green }
 
 **Github Pages** uses [Jekyyll][jekyllrb.com] to build your website.
 Familiarize your self on the basics of [front-matter][],
