@@ -11,14 +11,15 @@ Go to your **Github** repository and follow this guide to get it up and running.
 #### Using template remotely
 {: .text-green }
 
-1. Edit the content `_config.yml` file of your site's repository.
-2. Remove existing values of `theme` and `remote_theme`.
-3. Then activate **Github Pages**.
+Simply set the `remote_theme` value in your `_config.yml` file.
 
 ```yml
-# The theme of your site
 remote_theme: nikahmadz/pages
 ```
+
+1. Open your site's repository. Edit the content of  `_config.yml` file.
+2. Remove existing values of `theme` and `remote_theme` and set the new value as above.
+3. Then activate **Github Pages**.
 
 
 #### Activating Github Pages
