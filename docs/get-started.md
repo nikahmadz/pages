@@ -1,5 +1,8 @@
 ## Getting started with Pages
 
+You will be building your website on **Github Pages** so you should
+check out the [documentation](https://docs.github.com/en/pages "Github Pages Documentation").
+
 #### Using template remotely
 
 1. Edit the content `_config.yml` file of your site's repository.
@@ -73,5 +76,4 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-and check out the [documentation](https://docs.github.com/categories/github-pages-basics/).
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
