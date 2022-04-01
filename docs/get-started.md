@@ -22,13 +22,21 @@ Go to **Github Pages Settings** of your repository.
 3. Click **Save**.
 
 - Your app will be accessible at `//<user-name>.github.io/<repo-name>`.
-- Find out how you can [customize your theme here](https://github.com/pages-themes).
 
 
 #### Writing content
 
-On every content you create, start with the following front-matter.
+For those unfamiliar with how Jekyll works, check out [jekyllrb.com][]
+for all the details, or read up on just the basics of [front-matter][],
+[writing posts][], and [creating pages][].
+
+On every content you create, start with the following [front-matter][].
 If you don't specify the `layout` value, default value is used.
+
+[jekyllrb.com]: https://jekyllrb.com/
+[front-matter]: https://jekyllrb.com/docs/frontmatter/ "Read more"
+[writing posts]: https://jekyllrb.com/docs/posts/
+[creating pages]: https://jekyllrb.com/docs/pages/
 
 ```yml
 ---
