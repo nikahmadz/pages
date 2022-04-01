@@ -55,8 +55,6 @@ Having trouble with **Github Pages**?
 
 ***
 
-❤️ [nikahmadz][] &middot; [Github][github] &middot; [Discuss][discuss]
+❤️ [nikahmadz][]
 
 [nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
-[github]:    https://github.com/nikahmadz/pages "View source on Github"
-[discuss]:   https://github.com/nikahmadz/pages/discussions "Lets discuss about Pages"

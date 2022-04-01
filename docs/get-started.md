@@ -42,7 +42,7 @@ Go to **Github Pages Settings** of your repository.
 Familiarize your self on the basics of [front-matter][],
 [writing posts][], and [creating pages][].
 
-On every content you create, start with the following [front-matter][].
+On every content you create, start with the following **front-matter**.
 If you don't specify the value, default is used.
 
 [jekyllrb.com]: https://jekyllrb.com/
