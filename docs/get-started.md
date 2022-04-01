@@ -3,8 +3,7 @@
 If you're not familiar with **Github Pages**
 check out the [official documentation][documentation] to know how it works.
 
-Go to your **Github** repository or [create a new one][new].  
-Then follow these guide to get it up and running.
+Go to your **Github** repository and follow this guide to get it up and running.
 
 [new]: https://github.com/new "Create new repository"
 [documentation]: https://docs.github.com/en/pages "Github Pages Documentation"
