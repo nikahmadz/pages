@@ -1,4 +1,4 @@
-## Getting started with Pages
+## Getting started
 
 If you're not familiar with **Github Pages**
 check out the [official documentation][documentation] to know how it works.
