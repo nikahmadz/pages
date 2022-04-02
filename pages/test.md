@@ -1,4 +1,5 @@
 ---
+permalink: test
 title: "Test Page"
 ---
 
