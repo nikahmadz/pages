@@ -1,5 +1,5 @@
 ---
-title: "Example Page"
+title: "Example"
 ---
 
 ## {{ page.title }}
