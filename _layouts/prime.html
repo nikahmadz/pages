@@ -9,14 +9,14 @@
 {% seo %}
 <link rel="stylesheet" href="{{ "/assets/prime/css/style.css?v=" | append: site.github.build_revision | relative_url }}" />
 <script src="{{ "/assets/base/js/base-theme-v1.0.js?v=" | append: site.github.build_revision | relative_url }}"></script>
-{% include head-custom.html %}
-{% include head-custom-google-analytics.html %}
+{% include head.html %}
+{% include head-google-analytics.html %}
 </head>
 <body>
 <main class="container-lg px-3 my-3 markdown-body">
-<header>{% include header-custom.html %}</header>
-<article>{{ content }}</article>
-<footer>{% include footer-custom.html %}</footer>
+<header id="header">{% include header.html %}</header>
+<article id="article">{{ content }}</article>
+<footer id="footer">{% include footer.html %}</footer>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
 <script>anchors.add();</script>

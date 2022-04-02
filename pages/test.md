@@ -1,25 +1,10 @@
 ---
 permalink: test
 title: "Test Page"
+show_title: false
 ---
 
-({{ site.manifesto | default: 'unknown-manifesto' }})
-
-({{ site.manifest | default: 'unknown-manifest' }})
-
-({{ site.favicon }})
-
-{% if site.favicon %}
-
-yes
-
-{{ '/favicon.ico' | relative_url }}
-
-{% else %}
-
-no
-
-{% endif %}
+{% include header/bar.html %}
 
 ***
 
