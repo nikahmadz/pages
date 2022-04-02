@@ -49,6 +49,8 @@ Read the [step-by-step guide][start] to get started.
 Having trouble with **Github Pages**?  
 [Contact support](https://support.github.com/contact) or [discuss][] to sort it out.
 
+[discuss]:   https://github.com/nikahmadz/pages/discussions "Lets discuss about Pages"
+
 ## Sponsor
 
 ❤️ If you use this work and liked it, **please consider [supporting my work][pay]**, so I can continue making it better.
@@ -69,4 +71,3 @@ Having trouble with **Github Pages**?
 [Source][github] &middot; [Discuss][discuss]
 
 [github]:    https://github.com/nikahmadz/pages "View source on Github"
-[discuss]:   https://github.com/nikahmadz/pages/discussions "Lets discuss about Pages"

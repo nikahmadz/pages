@@ -1,5 +1,5 @@
 # [Pages][intro]
->✨ Build beautiful website in minutes
+### ✨ Build beautiful website in minutes
 
 ***
 
