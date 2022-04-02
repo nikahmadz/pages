@@ -1,5 +1,5 @@
 ---
-show-title: false
+show_title: false
 ---
 {% include header/bar.html %}
 
