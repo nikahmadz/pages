@@ -1,9 +1,9 @@
 # GitHub Pages Configurations
 
 title: Pages # The title of your site
-# description: # A short description of your site's purpose
+# description: ✨ Build beautiful website in minutes. # A short description of your site's purpose
 favicon: favicon.ico
-manifest: manifest.json
+# manifest: manifest.json
 
 # google_analytics: # Fill in your Google Analytics ID to track your website using Google Analytics
 
