@@ -1,4 +1,4 @@
-<nav id="bar" class="_flex">
+<nav id="bar" class="_flex py-3">
 <div class="_flex-main">
 {% if site.title and site.title != page.title %}
 <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
@@ -8,12 +8,12 @@
 <a href="https://github.com/nikahmadz/pages" title="View source on Github"><img src="https://icongr.am/simple/github.svg?size=128&color=707070&colored=false" alt="Github Logo" width="24px" height="24px" style="box-shadow:none" /></a>
 </div>
 </nav>
+<hr class="mt-0" />
 <style>
-#bar { border-bottom:2px solid grey }
 #bar h1 {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  font-size: 1.2rem;
+margin:0;
+border:0;
+padding:0;
+font-size: 1.2rem;
 }
 </style>
