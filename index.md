@@ -47,21 +47,26 @@ Read the [step-by-step guide][start] to get started.
 ## Getting help
 
 Having trouble with **Github Pages**?  
-[Contact support](https://support.github.com/contact) to sort it out.
+[Contact support](https://support.github.com/contact) or [discuss][] to sort it out.
 
 ## Sponsor
 
-🌱 If you use this work and liked it, **please consider [supporting my work][pay]**, so I can continue making it better.
+❤️ If you use this work and liked it, **please consider [supporting my work][pay]**, so I can continue making it better.
 
 [pay]: https://nikahmadz.github.io/#!pay "See payment options"
 
+## License
+
+[MIT][] &copy; [nikahmadz][]
+
+[MIT]: https://github.com/nikahmadz/pages/blob/main/LICENSE.md "Licensed under the MIT License"
+[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
 
 <div style="margin-top:4rem"></div>
 
 ***
 
-❤️ [nikahmadz][] &middot; [Github][github] &middot; [Discuss][discuss]
+[Source][github] &middot; [Discuss][discuss]
 
-[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
 [github]:    https://github.com/nikahmadz/pages "View source on Github"
 [discuss]:   https://github.com/nikahmadz/pages/discussions "Lets discuss about Pages"
