@@ -3,6 +3,8 @@ permalink: vars
 title: "Site's variables"
 ---
 
+<style>.markdown-body .highlight pre{max-height:400px}</style>
+
 ```yml
 
 theme: {{ site.theme }}
@@ -12,21 +14,18 @@ title: {{ site.title }}
 description: {{ site.description }}
 
 ```
-{: height="10em" }
 
 ##### site.github
 
 ```json
 {{ site.github }}
 ```
-{: height="10em" }
 
 ##### page
 
 ```json
 {{ page }}
 ```
-{: height="10em" }
 
 ***
 
