@@ -3,17 +3,30 @@ permalink: vars
 title: "Site's variables"
 ---
 
-##### Site
+```yml
+
+theme: {{ site.theme }}
+remote_theme: {{ site.remote_theme }}
+
+title: {{ site.title }}
+description: {{ site.description }}
+
+```
+{: height="10em" }
+
+##### site.github
 
 ```json
-{{ site }}
+{{ site.github }}
 ```
+{: height="10em" }
 
-##### Page
+##### page
 
 ```json
 {{ page }}
 ```
+{: height="10em" }
 
 ***
 
