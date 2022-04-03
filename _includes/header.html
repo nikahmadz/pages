@@ -1,4 +1,6 @@
 <!-- start custom with your own _includes/header.html -->
-{% if page.show_title != false %}
+{% if page.header_bar or site.header_bar %}
+{% include header/bar.html %}
+{% else %}
 {% include header/title.html %}
 {% endif %}

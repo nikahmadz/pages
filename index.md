@@ -1,7 +1,6 @@
 ---
-show_title: false
+header_bar: true
 ---
-{% include header/bar.html %}
 
 <p class="hero">Build <span class="text-red">beautiful website</span> in minutes</p>
 

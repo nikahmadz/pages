@@ -1,19 +1,27 @@
-<nav id="bar" class="_flex my-3">
+<nav id="header-bar">
+<div class="_flex my-2">
 <div class="_flex-main">
-{% if site.title and site.title != page.title %}
-<h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-{% endif %}
+  {% if page.show_title != false %}
+  {% if site.title and site.title != page.title %}
+  <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+  {% endif %}
+  {% endif %}
 </div>
 <div>
-<a href="https://github.com/nikahmadz/pages" title="View source on Github"><img src="https://icongr.am/simple/github.svg?size=128&color=707070&colored=false" alt="Github Logo" width="24px" height="24px" style="box-shadow:none" /></a>
+  <a href="https://github.com/nikahmadz/pages" title="View source on Github">
+    <img src="https://icongr.am/simple/github.svg?size=128&color=707070&colored=false" alt="Github Logo" width="24px" height="24px" style="box-shadow:none" />
+  </a>
 </div>
-</nav>
+</div>
 <hr class="mt-0" />
+</nav>
 <style>
-#bar h1 {
+#header-bar h1 {
+display:inline-block;
 margin:0;
 border:0;
 padding:0;
-font-size: 1.2rem;
+font-size:1.2rem;
+line-height:1.5rem;
 }
 </style>
