@@ -23,5 +23,6 @@ exclude: # Exclude these files from production site
 - LICENSE.md
 
 # plugins: # jekyll plugins
+#  - jekyll-remote-theme
 #  - jekyll-paginate
 #  - jekyll-sitemap
