@@ -3,9 +3,19 @@ permalink: vars
 title: "Site's variables"
 ---
 
+##### Site
+
 ```json
 {{ site }}
 ```
+
+##### Page
+
+```json
+{{ page }}
+```
+
+***
 
 1. {% github_edit_link "Improve this page" %}
 
