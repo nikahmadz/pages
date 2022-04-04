@@ -1,6 +1,8 @@
 ---
 permalink: vars
 title: "Site's variables"
+g:
+  api_url: site.github.api_url
 ---
 
 <style>.markdown-body .highlight pre{max-height:400px}</style>
@@ -10,12 +12,6 @@ theme: {{ site.theme }}
 remote_theme: {{ site.remote_theme }}
 title: {{ site.title }}
 description: {{ site.description }}
-```
-
-##### layout
-
-```
-{{ layout }}
 ```
 
 ##### site.github
@@ -58,7 +54,12 @@ description: {{ site.description }}
 ##### site.github.license
 
 ```json
-[{{ site.github.license }}]
+{% for v in site.github.license %}
+{{ v }}
+{% endfor %}
+```
+```json
+{{ site.github.license }}
 ```
 
 ##### site.github.owner
@@ -83,6 +84,12 @@ description: {{ site.description }}
 
 ```
 {{ site.sass }}
+```
+
+##### layout
+
+```
+{{ layout }}
 ```
 
 ##### page
