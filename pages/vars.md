@@ -12,53 +12,39 @@ title: {{ site.title }}
 description: {{ site.description }}
 ```
 
-##### site
-
-```yml
-{% for v in site %}{% if v[0]!='github' and v[0]!='sass' %}{{ v[0] }}: {{ v[1] }}
-{% endif %}{% endfor %}
-```
-
 ##### site.github
 
 ```yml
-{% for v in site.github %}{{ v[0] }}: {{ v[1] }}
-{% endfor %}
-```
-
-```json
-{
-"api_url": "{{ site.github.api_url }}",
-"baseurl": "{{ site.github.baseurl }}",
-"build_revision": "{{ site.github.build_revision }}",
-"clone_url": "{{ site.github.clone_url }}",
-"contributors": {{ site.github.contributors.size | default:0 }},
-"environment": "{{ site.github.environment }}",
-"hostname": "{{ site.github.hostname }}",
-"issues_url": "{{ site.github.issues_url }}",
-"language": "{{ site.github.language }}",
-"organization_members": {{ site.github.organization_members }},
-"owner_gravatar_url": "{{ site.github.owner_gravatar_url }}",
-"owner_name": "{{ site.github.owner_name }}",
-"owner_url": "{{ site.github.owner_url }}",
-"pages_env": "{{ site.github.pages_env }}",
-"pages_hostname": "{{ site.github.pages_hostname }}",
-"private": {{ site.github.private }},
-"project_title": "{{ site.github.project_title }}",
-"project_tagline": "{{ site.github.project_tagline }}",
-"public_repositories": {{ site.github.public_repositories.size | default:0 }},
-"releases": {{ site.github.releases.size | default:0 }},
-"releases_url": "{{ site.github.releases_url }}",
-"repository_name": "{{ site.github.repository_name }}",
-"repository_nwo": "{{ site.github.repository_nwo }}",
-"repository_url": "{{ site.github.repository_url }}",
-"show_downloads": {{ site.github.show_downloads }},
-"source": {{ site.github.source | default:null }},
-"url": "{{ site.github.url }}",
-"wiki_url": "{{ site.github.wiki_url }}",
-"tar_url": "{{ site.github.tar_url }}",
-"zip_url": "{{ site.github.zip_url }}"
-}
+api_url: {{ site.github.api_url }}
+baseurl: {{ site.github.baseurl }}
+build_revision: {{ site.github.build_revision }}
+clone_url: {{ site.github.clone_url }}
+contributors: {{ site.github.contributors.size | default:0 }}
+environment: {{ site.github.environment }}
+hostname: {{ site.github.hostname }}
+issues_url: {{ site.github.issues_url }}
+language: {{ site.github.language }}
+organization_members: {{ site.github.organization_members }}
+owner_gravatar_url: {{ site.github.owner_gravatar_url }}
+owner_name: {{ site.github.owner_name }}
+owner_url: {{ site.github.owner_url }}
+pages_env: {{ site.github.pages_env }}
+pages_hostname: {{ site.github.pages_hostname }}
+private: {{ site.github.private }}
+project_title: {{ site.github.project_title }}
+project_tagline: {{ site.github.project_tagline }}
+public_repositories: {{ site.github.public_repositories.size | default:0 }}
+releases: {{ site.github.releases.size | default:0 }}
+releases_url: {{ site.github.releases_url }}
+repository_name: {{ site.github.repository_name }}
+repository_nwo: {{ site.github.repository_nwo }}
+repository_url: {{ site.github.repository_url }}
+show_downloads: {{ site.github.show_downloads }}
+source: {{ site.github.source | default:null }}
+url: {{ site.github.url }}
+wiki_url: {{ site.github.wiki_url }}
+tar_url: {{ site.github.tar_url }}
+zip_url: {{ site.github.zip_url }}
 ```
 
 ##### site.github.license
