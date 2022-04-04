@@ -14,7 +14,7 @@ description: {{ site.description }}
 
 ##### layout
 
-```json
+```
 {{ layout }}
 ```
 
@@ -47,7 +47,7 @@ description: {{ site.description }}
 "repository_nwo": "{{ site.github.repository_nwo }}",
 "repository_url": "{{ site.github.repository_url }}",
 "show_downloads": {{ site.github.show_downloads }},
-"source": "{{ site.github.source }}",
+"source": {{ site.github.source | default:null }},
 "url": "{{ site.github.url }}",
 "wiki_url": "{{ site.github.wiki_url }}",
 "tar_url": "{{ site.github.tar_url }}",
@@ -57,22 +57,20 @@ description: {{ site.description }}
 
 ##### site.github.license
 
-{% assign license = site.github.license %}
-
 ```json
-{{ license }}
+[{{ site.github.license }}]
 ```
 
 ##### site.github.owner
 
 ```json
-{{ site.github.owner }}
+[{{ site.github.owner }}]
 ```
 
 ##### site.github.latest_release
 
 ```json
-{{ site.github.latest_release }}
+[{{ site.github.latest_release }}]
 ```
 
 ##### site.github.versions
@@ -83,7 +81,7 @@ description: {{ site.description }}
 
 ##### site.sass
 
-```yml
+```
 {{ site.sass }}
 ```
 
@@ -99,6 +97,8 @@ name: {{ page.name }}
 path: {{ page.path }}
 url: {{ page.url }}
 ```
+
+<div style="margin-top:4rem"></div>
 
 ***
 
