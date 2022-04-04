@@ -20,7 +20,7 @@ description: {{ site.description }}
   baseUrl: {{ site.github.baseUrl }},
   build_revision: {{ site.github.build_revision }},
   clone_url: {{ site.github.clone_url }},
-  contributors: {{ site.github.contributors.length }},
+  contributors: {{ site.github.contributors.length | default:0 }},
   environment: {{ site.github.environment }},
   hostname: {{ site.github.hostname }},
   issues_url: {{ site.github.issues_url }},
@@ -36,9 +36,9 @@ description: {{ site.description }}
   private: {{ site.github.private }},
   project_title: {{ site.github.project_title }},
   project_tagline: {{ site.github.project_tagline }},
-  public_repositories: {{ site.github.public_repositories.length }},
+  public_repositories: {{ site.github.public_repositories.length | default:0 }},
   latest_release: {{ site.github.latest_release }},
-  releases: {{ site.github.releases.length }},
+  releases: {{ site.github.releases.length | default:0 }},
   releases_url: {{ site.github.releases_url }},
   repository_name: {{ site.github.repository_name }},
   repository_nwo: {{ site.github.nwo }},
@@ -56,7 +56,7 @@ description: {{ site.description }}
 ##### site.sass
 
 ```json
-{{ site.sass }}
+style: {{ site.sass.style }}
 ```
 
 ##### page
@@ -65,7 +65,7 @@ description: {{ site.description }}
 permalink: {{ page.permalink }}
 title: {{ page.title }}
 layout: {{ page.layout }}
-content: # content
+content: {{ page.content.length | default:0 }}
 dir: {{ page.dir }}
 name: {{ page.name }}
 path: {{ page.path }}
