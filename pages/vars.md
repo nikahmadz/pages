@@ -14,7 +14,7 @@ description: {{ site.description }}
 
 ##### site.github
 
-```yml
+```json
 {
   apiUrl: {{ site.github.apiUrl }},
   baseUrl: {{ site.github.baseUrl }},
