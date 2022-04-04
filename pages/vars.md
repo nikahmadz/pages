@@ -105,6 +105,12 @@ path: {{ page.path }}
 url: {{ page.url }}
 ```
 
+##### page.g
+
+```
+{{ page.g }}
+```
+
 <div style="margin-top:4rem"></div>
 
 ***
