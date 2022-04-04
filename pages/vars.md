@@ -14,6 +14,11 @@ description: {{ site.description }}
 
 ##### site.github
 
+```yml
+{% for v in site.github %}{% if v[0]!='projects' %}{{ v[0] }}: {{ v[1] }}
+{% endif %}{% endfor %}
+```
+
 ```json
 {
 "api_url": "{{ site.github.api_url }}",
@@ -52,43 +57,50 @@ description: {{ site.description }}
 ##### site.github.license
 
 ```yml
-{% for v in site.github.license %}{{ v[0] }}: {{ v[1] }}{% endfor %}
+{% for v in site.github.license %}{{ v[0] }}: {{ v[1] }}
+{% endfor %}
 ```
 
 ##### site.github.owner
 
 ```yml
-{% for v in site.github.owner %}{{ v[0] }}: {{ v[1] }}{% endfor %}
+{% for v in site.github.owner %}{{ v[0] }}: {{ v[1] }}
+{% endfor %}
 ```
 
 ##### site.github.latest_release
 
 ```yml
-{% for v in site.github.latest_release %}{{ v[0] }}: {{ v[1] }}{% endfor %}
+{% for v in site.github.latest_release %}{{ v[0] }}: {{ v[1] }}
+{% endfor %}
 ```
 
 ##### site.github.versions
 
 ```yml
-{% for v in site.github.versions %}{{ v[0] }}: {{ v[1] }}{% endfor %}
+{% for v in site.github.versions %}{{ v[0] }}: {{ v[1] }}
+{% endfor %}
 ```
 
 ##### site.sass
 
 ```yml
-{% for v in site.sass %}{{ v[0] }}: {{ v[1] }}{% endfor %}
+{% for v in site.sass %}{{ v[0] }}: {{ v[1] }}
+{% endfor %}
 ```
 
 ##### layout
 
 ```yml
-{% for v in layout %}{{ v[0] }}: {{ v[1] }}{% endfor %}
+{% for v in layout %}{{ v[0] }}: {{ v[1] }}
+{% endfor %}
 ```
 
 ##### page
 
 ```yml
-{% for v in site.sass %}{% if v[0]!='content' %}{{ v[0] }}: {{ v[1] }}{% endif %}{% endfor %}
+{% for v in site.sass %}{% if v[0]!='content' %}{{ v[0] }}: {{ v[1] }}
+{% endif %}{% endfor %}
 # content-size: {{ page.content.size | default:0 }}
 ```
 
