@@ -14,7 +14,7 @@ Go to your **Github** repository and follow this guide to get it up and running.
 Simply set the `remote_theme` value in your `_config.yml` file.
 
 ```yml
-remote_theme: nikahmadz/pages
+remote_theme: {{ site.github.repository_nwo }}
 ```
 
 1. Open your site's repository. Edit the content of  `_config.yml` file.
