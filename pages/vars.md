@@ -25,9 +25,9 @@ environment: "{{ site.github.environment }}",
 hostname: "{{ site.github.hostname }}",
 issues_url: "{{ site.github.issues_url }}",
 language: "{{ site.github.language }}",
-license: "{{ site.github.license }}",
+license: "{ site.github.license }",
 organization_members: "{{ site.github.organization_members }}",
-owner: "{{ site.github.owner }}",
+owner: "{ site.github.owner }",
 owner_gravatar_url: "{{ site.github.owner_gravatar_url }}",
 owner_name: "{{ site.github.owner_name }}",
 owner_url: "{{ site.github.owner_url }}",
@@ -37,7 +37,7 @@ private: "{{ site.github.private }}",
 project_title: "{{ site.github.project_title }}",
 project_tagline: "{{ site.github.project_tagline }}",
 public_repositories: "{{ site.github.public_repositories.length | default:0 }}",
-latest_release: "{{ site.github.latest_release }}",
+latest_release: "{ site.github.latest_release }",
 releases: "{{ site.github.releases.length | default:0 }}",
 releases_url: "{{ site.github.releases_url }}",
 repository_name: "{{ site.github.repository_name }}",
@@ -49,8 +49,32 @@ url: "{{ site.github.url }}",
 wiki_url: "{{ site.github.wiki_url }}",
 tar_url: "{{ site.github.tar_url }}",
 zip_url: "{{ site.github.zip_url }}",
-versions: "{{ site.github.versions }}"
+versions: "{ site.github.versions }"
 }
+```
+
+##### site.github.license
+
+```json
+{{ site.github.license }}
+```
+
+##### site.github.owner
+
+```json
+{{ site.github.owner }}
+```
+
+##### site.github.latest_release
+
+```json
+{{ site.github.latest_release }}
+```
+
+##### site.github.versions
+
+```json
+{{ site.github.versions }}
 ```
 
 ##### site.sass
