@@ -43,7 +43,7 @@ Setting up a website on **Github Pages** is easy.
 Simply set the `remote_theme` value in your `_config.yml` file.
 
 ```yml
-remote_theme: nikahmadz/pages
+remote_theme: {{ site.github.repository_nwo }}
 ```
 
 Read the [step-by-step guide][start] to get started.
