@@ -12,11 +12,18 @@ title: {{ site.title }}
 description: {{ site.description }}
 ```
 
+##### site
+
+```yml
+{% for v in site %}{% if v[0]!='github' and v[0]!='sass' %}{{ v[0] }}: {{ v[1] }}
+{% endif %}{% endfor %}
+```
+
 ##### site.github
 
 ```yml
-{% for v in site.github %}{% if v[0]!='projects' %}{{ v[0] }}: {{ v[1] }}
-{% endif %}{% endfor %}
+{% for v in site.github %}{{ v[0] }}: {{ v[1] }}
+{% endfor %}
 ```
 
 ```json
@@ -71,7 +78,9 @@ description: {{ site.description }}
 ##### site.github.latest_release
 
 ```yml
-{% for v in site.github.latest_release %}{{ v[0] }}: {{ v[1] }}
+{% for v in site.github.latest_release %}{% if v[0]!='author' %}{{ v[0] }}: {{ v[1] }}
+{% endif %}{% endfor %}
+{% for v in site.github.latest_release.author %}{{ v[0] }}: {{ v[1] }}
 {% endfor %}
 ```
 
@@ -99,9 +108,10 @@ description: {{ site.description }}
 ##### page
 
 ```yml
-{% for v in site.sass %}{% if v[0]!='content' %}{{ v[0] }}: {{ v[1] }}
+{% for v in page %}{% if v[0]!='content' %}{{ v[0] }}: {{ v[1] }}
 {% endif %}{% endfor %}
 # content-size: {{ page.content.size | default:0 }}
+
 ```
 
 <div style="margin-top:4rem"></div>
