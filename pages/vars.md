@@ -2,8 +2,9 @@
 permalink: vars
 title: "Site's variables"
 ---
-
 <style>.markdown-body .highlight pre{max-height:400px}</style>
+
+## {{ page.title }}
 
 ```yml
 theme: {{ site.theme }}
