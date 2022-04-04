@@ -12,10 +12,10 @@ title: {{ site.title }}
 description: {{ site.description }}
 ```
 
-##### site.github
+##### layout
 
 ```json
-{{ site.github }}
+{{ layout }}
 ```
 
 ##### site.github
@@ -57,8 +57,10 @@ description: {{ site.description }}
 
 ##### site.github.license
 
+{% assign license = site.github.license %}
+
 ```json
-{{ site.github.license }}
+{{ license }}
 ```
 
 ##### site.github.owner
