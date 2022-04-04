@@ -15,6 +15,12 @@ description: {{ site.description }}
 ##### site.github
 
 ```json
+{{ site.github }}
+```
+
+##### site.github
+
+```json
 {
 "apiUrl": "{{ site.github.apiUrl }}",
 "baseUrl": "{{ site.github.baseUrl }}",
@@ -41,7 +47,7 @@ description: {{ site.description }}
 "releases": "{{ site.github.releases.length | default:0 }}",
 "releases_url": "{{ site.github.releases_url }}",
 "repository_name": "{{ site.github.repository_name }}",
-"repository_nwo": "{{ site.github.nwo }}",
+"repository_nwo": "{{ site.github.repository_nwo }}",
 "repository_url": "{{ site.github.repository_url }}",
 "show_downloads": "{{ site.github.show_downloads }}",
 "source": "{{ site.github.source }}",
