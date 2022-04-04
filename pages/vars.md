@@ -71,12 +71,14 @@ zip_url: {{ site.github.zip_url }}
 
 ###### site.github.latest_release
 
+{% if site.github.latest_release %}
 ```yml
 {% for v in site.github.latest_release %}{% if v[0]!='author' %}{{ v[0] }}: {{ v[1] }}
 {% endif %}{% endfor %}
 author: {% for v in site.github.latest_release.author %}
   {{ v[0] }}: {{ v[1] }}{% endfor %}
 ```
+{% endif %}
 
 ###### site.github.versions
 
