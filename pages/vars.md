@@ -53,9 +53,9 @@ description: {{ site.description }}
 
 ##### site.github.license
 
-```json
+```yml
 {% for v in site.github.license %}
-{{ v }}
+{{ v }}{{ v[0] }}{{ v[1] }}
 {% endfor %}
 ```
 ```json
