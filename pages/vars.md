@@ -10,9 +10,16 @@ theme: {{ site.theme }}
 remote_theme: {{ site.remote_theme }}
 title: {{ site.title }}
 description: {{ site.description }}
+author: {{ site.author }}
+favicon: {{ site.favicon }}
+manifest: {{ site.manifest }}
+color_scheme: {{ site.color_scheme }}
+theme_color: {{ site.theme_color }}
+cloudflare_analytics: {{ site.cloudflare_analytics }}
+google_analytics: {{ site.google_analytics }}
 ```
 
-##### site.github
+###### site.github
 
 ```yml
 api_url: {{ site.github.api_url }}
@@ -47,51 +54,51 @@ tar_url: {{ site.github.tar_url }}
 zip_url: {{ site.github.zip_url }}
 ```
 
-##### site.github.license
+###### site.github.license
 
 ```yml
 {% for v in site.github.license %}{{ v[0] }}: {{ v[1] }}
 {% endfor %}
 ```
 
-##### site.github.owner
+###### site.github.owner
 
 ```yml
 {% for v in site.github.owner %}{{ v[0] }}: {{ v[1] }}
 {% endfor %}
 ```
 
-##### site.github.latest_release
+###### site.github.latest_release
 
 ```yml
 {% for v in site.github.latest_release %}{% if v[0]!='author' %}{{ v[0] }}: {{ v[1] }}
 {% endif %}{% endfor %}
-{% for v in site.github.latest_release.author %}{{ v[0] }}: {{ v[1] }}
-{% endfor %}
+author: {% for v in site.github.latest_release.author %}
+  {{ v[0] }}: {{ v[1] }}{% endfor %}
 ```
 
-##### site.github.versions
+###### site.github.versions
 
 ```yml
 {% for v in site.github.versions %}{{ v[0] }}: {{ v[1] }}
 {% endfor %}
 ```
 
-##### site.sass
+###### site.sass
 
 ```yml
 {% for v in site.sass %}{{ v[0] }}: {{ v[1] }}
 {% endfor %}
 ```
 
-##### layout
+###### layout
 
 ```yml
 {% for v in layout %}{{ v[0] }}: {{ v[1] }}
 {% endfor %}
 ```
 
-##### page
+###### page
 
 ```yml
 {% for v in page %}{% if v[0]!='content' %}{{ v[0] }}: {{ v[1] }}
