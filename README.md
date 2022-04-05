@@ -50,11 +50,21 @@ Having trouble with **Github Pages**?
 
 ❤️ If you use this work and liked it, **please consider [supporting my work][pay]**, so I can continue making it better.
 
-[pay]: https://nikahmadz.github.io/#!pay "See payment options"
-
 ## License
 
 [MIT][] &copy; [nikahmadz][]
 
 [MIT]: https://github.com/nikahmadz/pages/blob/main/LICENSE.md "Licensed under the MIT License"
+
+***
+
+[Visit my website][nikahmadz]
+&middot; [Follow me][pay]
+&middot; [Sponsor me][pay]
+&middot; [Discuss][discuss]
+
 [nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
+[github]:    https://github.com/nikahmadz "Follow me on Github"
+[discuss]:   https://github.com/nikahmadz/nikahmadz.github.io/discussions "Lets discuss something"
+[wiki]:      https://github.com/nikahmadz/nikahmadz.github.io/wiki "You have found my little wiki!"
+[pay]:       https://nikahmadz.github.io/#!pay "See payment options"
