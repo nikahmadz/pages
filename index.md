@@ -6,11 +6,11 @@ header_bar: true
 
 ***
 
-This template helps you build websites on <b>Github</b>.
+**Pages** helps you build websites on **Github**.
 It has everything configured to get you started right away.
 Maintain the content of your website with any code editor you like.
 You can write your content in Markdown and HTML.
-When you commit your code, <b>Github Pages</b> will build your website from the content of your files.
+When you commit your code, **Github Pages** will build your website from the content of your files.
 
 [Get started][start]{: ._bt.-l.-blue }
 [View on Github][github]{: ._bt.-l.-flat }
@@ -59,14 +59,11 @@ Having trouble with **Github Pages**?
 
 ❤️ If you use this work and liked it, **please consider [supporting my work][pay]**, so I can continue making it better.
 
-[pay]: https://nikahmadz.github.io/#!pay "See payment options"
-
 ## License
 
 [MIT][] &copy; [nikahmadz][]
 
 [MIT]: https://github.com/nikahmadz/pages/blob/main/LICENSE.md "Licensed under the MIT License"
-[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
 
 <div style="margin-top:4rem"></div>
 

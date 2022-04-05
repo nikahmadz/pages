@@ -3,11 +3,11 @@
 
 ***
 
-This template helps you build websites on <b>Github</b>.
+**Pages** helps you build websites on **Github**.
 It has everything configured to get you started right away.
 Maintain the content of your website with any code editor you like.
 You can write your content in Markdown and HTML.
-When you commit your code, <b>Github Pages</b> will build your website from the content of your files.
+When you commit your code, **Github Pages** will build your website from the content of your files.
 
 **[Get started][start]** &middot;
 **[Demo][demo]**
@@ -46,6 +46,8 @@ Read the [step-by-step guide][start] to get started.
 Having trouble with **Github Pages**?  
 [Contact support](https://support.github.com/contact) or [discuss][] to sort it out.
 
+[discuss]:   https://github.com/nikahmadz/pages/discussions "Lets discuss about Pages"
+
 ## Sponsor
 
 ❤️ If you use this work and liked it, **please consider [supporting my work][pay]**, so I can continue making it better.
@@ -55,16 +57,4 @@ Having trouble with **Github Pages**?
 [MIT][] &copy; [nikahmadz][]
 
 [MIT]: https://github.com/nikahmadz/pages/blob/main/LICENSE.md "Licensed under the MIT License"
-
-***
-
-[Visit my website][nikahmadz]
-&middot; [Follow me][pay]
-&middot; [Sponsor me][pay]
-&middot; [Discuss][discuss]
-
 [nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
-[github]:    https://github.com/nikahmadz "Follow me on Github"
-[discuss]:   https://github.com/nikahmadz/nikahmadz.github.io/discussions "Lets discuss something"
-[wiki]:      https://github.com/nikahmadz/nikahmadz.github.io/wiki "You have found my little wiki!"
-[pay]:       https://nikahmadz.github.io/#!pay "See payment options"
