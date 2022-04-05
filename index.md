@@ -64,6 +64,7 @@ Having trouble with **Github Pages**?
 [MIT][] &copy; [nikahmadz][]
 
 [MIT]: https://github.com/nikahmadz/pages/blob/main/LICENSE.md "Licensed under the MIT License"
+[nikahmadz]: https://nikahmadz.github.io "Go to nikahmadz.github.io"
 
 <div style="margin-top:4rem"></div>
 
