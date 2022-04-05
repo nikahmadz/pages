@@ -13,11 +13,11 @@ You can write your content in Markdown and HTML.
 When you commit your code, **Github Pages** will build your website from the content of your files.
 
 [Get started][start]{: ._bt.-l.-blue }
-[View on Github][github]{: ._bt.-l.-flat }
+[View on Github][source]{: ._bt.-l.-flat }
 [Demo][demo]{: ._bt.-l.-flat }
 
-[intro]: https://nikahmadz.github.io/pages/ "Introduction to Pages"
-[start]: https://nikahmadz.github.io/pages/docs/get-started "Find out how you can use this template to build websites"
+[start]:  https://nikahmadz.github.io/pages/docs/get-started "Find out how you can use this template to build websites"
+[source]: https://github.com/nikahmadz/pages "View source on Github"
 [demo]:  #demo "View live demo"
 
 ***
@@ -70,6 +70,4 @@ Having trouble with **Github Pages**?
 
 ***
 
-[Source][github] &middot; [Discuss][discuss]
-
-[github]:    https://github.com/nikahmadz/pages "View source on Github"
+**[Source][source] &middot; [Discuss][discuss]**
