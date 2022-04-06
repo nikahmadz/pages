@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}" data-layout="base">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}" data-layout="nub">
 <!-- (c) Copyright Nik Ahmad : github.com/nikahmadz/pages -->
 <head>
 <meta charset="utf-8" />
@@ -9,18 +9,16 @@
 <meta id="_theme-color"  name="theme-color"  content="{{ page.theme_color | default: site.theme_color | default: "#202020" }}" />
 <!--[if lt IE 9]><script src="//unpkg.com/html5shiv@3.7.3/dist/html5shiv.min.js"><![endif]-->
 {% seo %}
-<link id="_style" rel="stylesheet" href="{{ "/assets/base/css/style.css?v=" | append: site.github.build_revision | relative_url }}" />
+<link id="_style" rel="stylesheet" href="{{ "/assets/nub/css/style.css?v=" | append: site.github.build_revision | relative_url }}" />
 <script src="{{ "/assets/base/js/base-theme-v1.0.js?v=" | append: site.github.build_revision | relative_url }}"></script>
 {% include head.html %}
 {% include head-google-analytics.html %}
 </head>
 <body>
-<main id="app" class="_app __fadein markdown-body">
-<div id="layout" class="container-lg px-3 my-3">
+<main id="app" class="markdown-body">
 <header id="header">{% include header.html %}</header>
 <article id="article">{{ content }}</article>
 <footer id="footer">{% include footer.html %}</footer>
-</div>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
 <script>anchors.add();</script>
