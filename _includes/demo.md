@@ -214,7 +214,7 @@ If you link to a missing page, you'll see [an error](../404 "Page not found").
 
 ## Theme control
 
-Some layout in **Pages** allows user to switch between ***light*** and ***dark***.
+Some layout in **Pages** allows user to switch between ***light*** and ***dark*** theme.
 
 <b><a href="#" onclick="event.preventDefault();window.base&&window.base.theme.change()" title="Change theme (Alt+T)">Change theme (Alt+T)</a></b>
 
