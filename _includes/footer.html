@@ -1,2 +1,10 @@
 <!-- start custom with your own _includes/footer-custom.html -->
-<hr /><blockquote><p>✨ Made with <a href="https://nikahmadz.github.io/pages" title="Made with Pages">Pages</a></p><blockquote>
+{% if site.github.private != true and site.github.license %}
+<div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+  This site is open source. {% github_edit_link "Improve this page" %}.
+</div>
+{% endif %}
+<hr />
+<blockquote>
+  <p>✨ Made with <a href="https://nikahmadz.github.io/pages" title="Made with Pages">Pages</a></p>
+<blockquote>

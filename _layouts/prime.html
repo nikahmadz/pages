@@ -13,10 +13,12 @@
 {% include head-google-analytics.html %}
 </head>
 <body>
-<main class="container-lg px-3 my-3 markdown-body">
+<main id="app" class="markdown-body">
+<div id="layout" class="container-lg px-3 my-3">
 <header id="header">{% include header.html %}</header>
 <article id="article">{{ content }}</article>
 <footer id="footer">{% include footer.html %}</footer>
+</div>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
 <script>anchors.add();</script>
