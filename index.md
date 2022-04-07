@@ -59,6 +59,8 @@ Having trouble with **Github Pages**?
 
 ❤️ If you use this work and liked it, **please consider [supporting my work][pay]**, so I can continue making it better.
 
+[pay]:       https://nikahmadz.github.io/#!pay "See payment options"
+
 ## License
 
 [MIT][] &copy; [nikahmadz][]
