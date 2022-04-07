@@ -1,11 +1,7 @@
 <nav id="header-bar">
 <div class="_flex my-2">
 <div class="_flex-main">
-  {% if page.show_title != false %}
-  {% if site.title and site.title != page.title %}
-  <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-  {% endif %}
-  {% endif %}
+  {% include header/title.html %}
 </div>
 <div>
   <a href="{{ site.github.repository_url }}" title="View source on Github" class="_bt -h -square _m0">

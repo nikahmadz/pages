@@ -4,9 +4,7 @@ permalink: blocks
 title: "Blocks"
 ---
 
-## Header blocks
-
-{% include header/bar.html %}
+## {{ page.title }}
 
 <div style="margin-top:4rem"></div>
 
