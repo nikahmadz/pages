@@ -1,9 +1,14 @@
 ---
 permalink: test
 title: "Test Page"
+
+categories:
 ---
 
 # {{ page.title }}
+
+{{ site.time | date: '%Y' }}
+{{ site.url }}
 
 #### breadcrumbs
 
