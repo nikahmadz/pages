@@ -1,6 +1,6 @@
 <!-- start custom with your own _includes/header.html -->
-{% if layout=='primer' %}
-{% include header/title.html %}
-{% else %}
+{% if page.header == 'bar' %}
 {% include header/bar.html %}
+{% else %}
+{% include header/title.html %}
 {% endif %}
