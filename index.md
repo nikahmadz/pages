@@ -14,22 +14,13 @@ When you commit your code, **Github Pages** will build your website from the con
 
 [Get started][start]{: ._bt.-l.-blue }
 [View on Github][source]{: ._bt.-l.-flat }
-[Demo][demo]{: ._bt.-l.-flat }
 
 [start]:  https://nikahmadz.github.io/pages/docs/get-started "Find out how you can use this template to build websites"
 [source]: https://github.com/nikahmadz/pages "View source on Github"
-[demo]:  #demo "View live demo"
 
 ***
 
-<p><img src="https://picsum.photos/id/1039/1024/368" alt="Large image" class="width-full centered"></p>
-
-> Beautiful image from [picsum.photos](https://picsum.photos/)
-{: .m-0.text-grey.text-medium }
-
-***
-
-## <span id="demo">Demo pages</span>
+## Demo pages
 
 **[Base](//nikahmadz.github.io/pages/demo/base)**
 **[Prime](//nikahmadz.github.io/pages/demo/prime)**
