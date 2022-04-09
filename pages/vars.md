@@ -14,6 +14,8 @@ description: {{ site.description }}
 author: {{ site.author }}
 favicon: {{ site.favicon }}
 manifest: {{ site.manifest }}
+time: {{ site.time }}
+url: {{ site.url }}
 color_scheme: {{ site.color_scheme }}
 theme_color: {{ site.theme_color }}
 cloudflare_analytics: {{ site.cloudflare_analytics }}
