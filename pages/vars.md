@@ -20,6 +20,7 @@ color_scheme: {{ site.color_scheme }}
 theme_color: {{ site.theme_color }}
 cloudflare_analytics: {{ site.cloudflare_analytics }}
 google_analytics: {{ site.google_analytics }}
+header: {{ site.header }}
 ```
 
 ###### site.github
