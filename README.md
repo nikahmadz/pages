@@ -43,7 +43,7 @@ Having trouble with **Github Pages**?
 
 ## Sponsor
 
-❤️ If you use this work and liked it, **please consider [supporting my work][pay]**, so I can continue making it better.
+❤️ If you use this work and liked it, **please consider [supporting development][pay]**.
 
 [pay]:       https://nikahmadz.github.io/#!pay "See payment options"
 
