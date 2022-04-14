@@ -9,8 +9,7 @@ Maintain the content of your website with any code editor you like.
 You can write your content in Markdown and HTML.
 When you commit your code, **Github Pages** will build your website from the content of your files.
 
-**[Get started][start]** &middot;
-**[Demo][demo]**
+**[Get started][start]**
 
 [intro]: https://nikahmadz.github.io/pages/ "Introduction to Pages"
 [start]: https://nikahmadz.github.io/pages/docs/get-started "Find out how you can use this template to build websites"
