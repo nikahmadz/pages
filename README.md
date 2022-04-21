@@ -29,7 +29,7 @@ When you commit your code to your repository, **Github Pages** will build your w
 ## How to use
 
 Setting up a website on **Github Pages** is easy.
-Simply set the `remote_theme` value in your `_config.yml` file and you're ready to go.
+Simply set the `remote_theme` value in your `_config.yml` and you're ready to go.
 
 ```yml
 remote_theme: nikahmadz/pages
