@@ -24,6 +24,8 @@ When you commit your code to your repository, **Github Pages** will build your w
 &middot; [Prime](//nikahmadz.github.io/pages/demo/prime)
 &middot; [Primer](//nikahmadz.github.io/pages/demo/primer)**
 
+***
+
 ## How to use
 
 Setting up a website on **Github Pages** is easy.
